@@ -8,7 +8,6 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
     --gold: #C9A84C;
-    --gold-light: #E8C96A;
     --bg: #0A0A0A;
     --surface: #141414;
     --surface2: #1E1E1E;
@@ -22,12 +21,12 @@
   }
   body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; min-height: 100vh; }
 
+  /* ── Header ─────────────────────────────────────────── */
   header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
   .logo { display: flex; align-items: center; gap: 12px; }
-  .logo-mark { width: 32px; height: 32px; background: var(--gold); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; color: #000; letter-spacing: -1px; }
+  .logo-mark { width: 32px; height: 32px; background: var(--gold); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; color: #000; }
   .logo-text { font-size: 16px; font-weight: 700; letter-spacing: 1px; }
   .logo-sub { font-size: 11px; color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; }
-
   .header-right { display: flex; align-items: center; gap: 16px; }
   .venue-tabs { display: flex; gap: 4px; background: var(--surface2); border-radius: 8px; padding: 4px; }
   .venue-tab { padding: 6px 14px; border-radius: 6px; border: none; background: none; color: var(--text-muted); cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.15s; }
@@ -43,19 +42,19 @@
   .status-dot.loading { background: var(--gold); }
   @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.4} }
 
+  /* ── Layout ──────────────────────────────────────────── */
   main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+  .section-title { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 14px; font-weight: 600; }
 
+  /* ── KPIs ────────────────────────────────────────────── */
   .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; position: relative; overflow: hidden; }
   .kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--gold); opacity: 0.6; }
   .kpi-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 10px; }
   .kpi-value { font-size: 32px; font-weight: 700; letter-spacing: -1px; }
-  .kpi-delta { margin-top: 6px; font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; }
-  .kpi-delta .up { color: var(--green); }
-  .kpi-delta .down { color: var(--red); }
+  .kpi-sub { margin-top: 6px; font-size: 13px; color: var(--text-muted); }
 
-  .section-title { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 14px; font-weight: 600; }
-
+  /* ── Venue split ─────────────────────────────────────── */
   .venue-split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
   .venue-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
   .venue-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
@@ -68,72 +67,84 @@
   .venue-stat-val { font-size: 22px; font-weight: 700; }
   .venue-stat-label { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
 
+  /* ── Events table ────────────────────────────────────── */
   .events-section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
   .events-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
   .events-filter { display: flex; gap: 4px; }
   .filter-btn { padding: 5px 12px; border-radius: 6px; border: 1px solid var(--border); background: none; color: var(--text-muted); font-size: 12px; cursor: pointer; transition: all 0.15s; }
   .filter-btn.active { background: var(--surface3); color: var(--text); border-color: var(--surface3); }
+
   .events-table { width: 100%; border-collapse: collapse; }
   .events-table th { padding: 10px 20px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); border-bottom: 1px solid var(--border); font-weight: 600; background: var(--surface2); }
-  .events-table td { padding: 14px 20px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: middle; }
-  .events-table tr:last-child td { border-bottom: none; }
-  .events-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* Main event row */
+  .ev-main-row { cursor: pointer; }
+  .ev-main-row td { padding: 14px 20px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: middle; transition: background 0.1s; }
+  .ev-main-row:hover td { background: rgba(255,255,255,0.025); }
+  .ev-main-row.expanded td { background: rgba(201,168,76,0.04); border-bottom: none; }
+
+  /* Expand indicator cell */
+  .ev-toggle-cell { width: 36px; text-align: center; }
+  .ev-toggle-icon { display: inline-block; width: 20px; height: 20px; border-radius: 50%; border: 1px solid var(--border); color: var(--text-muted); font-size: 10px; line-height: 18px; text-align: center; transition: all 0.15s; }
+  .ev-main-row:hover .ev-toggle-icon { border-color: var(--gold); color: var(--gold); }
+  .ev-main-row.expanded .ev-toggle-icon { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); transform: rotate(45deg); }
+
   .event-name { font-weight: 600; font-size: 14px; }
   .event-date { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
   .event-venue-tag { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; margin-left: 8px; vertical-align: middle; }
   .tag-liv { background: rgba(201,168,76,0.12); color: var(--gold); }
   .tag-beach { background: rgba(90,155,224,0.12); color: var(--blue); }
+
   .pacing-bar-wrap { display: flex; align-items: center; gap: 10px; }
   .pacing-bar { flex: 1; height: 6px; background: var(--surface3); border-radius: 3px; overflow: hidden; max-width: 120px; }
   .pacing-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width 0.6s ease; }
   .pacing-pct { font-size: 12px; color: var(--text-muted); min-width: 36px; }
+
   .delta-badge { display: inline-flex; align-items: center; gap: 3px; padding: 3px 8px; border-radius: 20px; font-size: 12px; font-weight: 600; }
   .delta-pos { background: rgba(76,175,130,0.12); color: var(--green); }
   .delta-zero { background: var(--surface3); color: var(--text-muted); }
-  .sort-th { cursor: pointer; user-select: none; }
-  .sort-th:hover { color: var(--text); }
-  .sort-icon { margin-left: 4px; opacity: 0.5; }
 
+  /* ── Competitor expand panel ─────────────────────────── */
+  .ev-expand-row { display: none; }
+  .ev-expand-row.open { display: table-row; }
+  .ev-expand-cell { padding: 0 !important; border-bottom: 1px solid var(--border) !important; background: var(--bg) !important; }
+
+  .comp-panel { padding: 18px 20px 20px 56px; border-top: 1px solid rgba(201,168,76,0.15); }
+  .comp-panel-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--gold); font-weight: 700; margin-bottom: 14px; }
+  .comp-group-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; margin-bottom: 8px; margin-top: 16px; }
+  .comp-group-label:first-of-type { margin-top: 0; }
+
+  .comp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+
+  .comp-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 8px; transition: border-color 0.15s; }
+  .comp-card:hover { border-color: rgba(255,255,255,0.15); }
+  .comp-card-top { display: flex; align-items: flex-start; justify-content: space-between; }
+  .comp-card-name { font-size: 13px; font-weight: 700; }
+  .comp-card-group { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+  .comp-link-btn { font-size: 11px; color: var(--text-muted); text-decoration: none; background: var(--surface3); border: 1px solid var(--border); border-radius: 5px; padding: 3px 8px; white-space: nowrap; flex-shrink: 0; transition: all 0.15s; }
+  .comp-link-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+  .comp-fields { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+  .comp-field { display: flex; flex-direction: column; gap: 3px; }
+  .comp-field label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-weight: 600; }
+  .comp-field input { background: var(--surface3); border: 1px solid var(--border); border-radius: 5px; color: var(--text); font-size: 12px; padding: 5px 8px; width: 100%; outline: none; transition: border-color 0.15s; font-family: inherit; }
+  .comp-field input:focus { border-color: rgba(201,168,76,0.5); }
+  .comp-field input::placeholder { color: var(--text-muted); opacity: 0.5; }
+  .comp-field input.has-value { color: #fff; }
+  .saved-flash { border-color: var(--green) !important; }
+
+  /* ── Misc ────────────────────────────────────────────── */
   .loading-overlay { display: flex; align-items: center; justify-content: center; padding: 60px; color: var(--text-muted); flex-direction: column; gap: 12px; }
   .spinner { width: 28px; height: 28px; border: 2px solid var(--surface3); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; }
   .error-msg { padding: 40px; text-align: center; color: var(--red); }
-
   .auto-refresh-label { font-size: 11px; color: var(--text-muted); }
-
-  .comp-section { margin-top: 24px; }
-  .comp-section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
-  .comp-toggle { display: flex; gap: 4px; }
-
-  .comp-date-block { margin-bottom: 12px; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
-  .comp-date-header { display: flex; align-items: center; gap: 12px; padding: 12px 18px; background: var(--surface); cursor: pointer; user-select: none; }
-  .comp-date-header:hover { background: var(--surface2); }
-  .comp-date-label { font-weight: 700; font-size: 14px; }
-  .comp-ops { display: flex; gap: 6px; }
-  .comp-op-badge { font-size: 10px; padding: 2px 8px; border-radius: 20px; font-weight: 700; letter-spacing: 0.5px; }
-  .comp-op-liv { background: rgba(201,168,76,0.15); color: var(--gold); border: 1px solid rgba(201,168,76,0.25); }
-  .comp-op-beach { background: rgba(90,155,224,0.15); color: var(--blue); border: 1px solid rgba(90,155,224,0.25); }
-  .comp-chevron { margin-left: auto; color: var(--text-muted); transition: transform 0.2s; font-size: 12px; }
-  .comp-date-block.open .comp-chevron { transform: rotate(180deg); }
-
-  .comp-body { display: none; padding: 14px 18px; background: var(--surface); border-top: 1px solid var(--border); }
-  .comp-date-block.open .comp-body { display: block; }
-
-  .comp-group-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; margin-bottom: 8px; margin-top: 12px; }
-  .comp-group-label:first-child { margin-top: 0; }
-  .comp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
-  .comp-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; text-decoration: none; color: var(--text); transition: all 0.15s; }
-  .comp-card:hover { border-color: rgba(255,255,255,0.2); background: var(--surface3); }
-  .comp-card-left { display: flex; flex-direction: column; gap: 2px; }
-  .comp-card-name { font-size: 13px; font-weight: 600; }
-  .comp-card-group { font-size: 10px; color: var(--text-muted); }
-  .comp-card-arrow { color: var(--text-muted); font-size: 12px; flex-shrink: 0; }
-  .comp-card:hover .comp-card-arrow { color: var(--gold); }
 
   @media (max-width: 900px) {
     .kpi-grid { grid-template-columns: repeat(2, 1fr); }
     .venue-split { grid-template-columns: 1fr; }
     header { flex-wrap: wrap; gap: 10px; }
-    .comp-grid { grid-template-columns: repeat(2, 1fr); }
+    .comp-grid { grid-template-columns: 1fr 1fr; }
+    .comp-panel { padding-left: 16px; }
   }
 </style>
 </head>
@@ -171,27 +182,27 @@
     <div class="kpi-card">
       <div class="kpi-label">Total Tickets Sold</div>
       <div class="kpi-value" id="kpiTickets">—</div>
-      <div class="kpi-delta" id="kpiTicketsDelta"></div>
+      <div class="kpi-sub">upcoming events</div>
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Total Revenue</div>
       <div class="kpi-value" id="kpiRevenue">—</div>
-      <div class="kpi-delta" id="kpiRevenueDelta"></div>
+      <div class="kpi-sub">upcoming events</div>
     </div>
     <div class="kpi-card">
       <div class="kpi-label">24hr Ticket Sales</div>
       <div class="kpi-value" id="kpi24h">—</div>
-      <div class="kpi-delta">across all upcoming events</div>
+      <div class="kpi-sub">across all venues</div>
     </div>
     <div class="kpi-card">
       <div class="kpi-label">Active Events</div>
       <div class="kpi-value" id="kpiEvents">—</div>
-      <div class="kpi-delta" id="kpiEventsDelta"></div>
+      <div class="kpi-sub">with tickets sold</div>
     </div>
   </div>
 
   <div class="venue-split">
-    <div class="venue-card" id="livCard">
+    <div class="venue-card">
       <div class="venue-card-header">
         <div class="venue-name">LIV Las Vegas</div>
         <span class="venue-badge badge-liv">NIGHTCLUB</span>
@@ -202,7 +213,7 @@
         <div class="venue-stat"><div class="venue-stat-val" id="liv24h">—</div><div class="venue-stat-label">Last 24h</div></div>
       </div>
     </div>
-    <div class="venue-card" id="beachCard">
+    <div class="venue-card">
       <div class="venue-card-header">
         <div class="venue-name">LIV Beach</div>
         <span class="venue-badge badge-beach">BEACH CLUB</span>
@@ -217,7 +228,7 @@
 
   <div class="events-section">
     <div class="events-header">
-      <div class="section-title" style="margin:0">Upcoming Events</div>
+      <div class="section-title" style="margin:0">Upcoming Events — click any row to see competitor intel</div>
       <div class="events-filter">
         <button class="filter-btn active" onclick="setSortFilter('date', this)">By Date</button>
         <button class="filter-btn" onclick="setSortFilter('tickets', this)">By Tickets</button>
@@ -229,13 +240,6 @@
       <div class="loading-overlay"><div class="spinner"></div><span>Fetching live data…</span></div>
     </div>
   </div>
-
-  <div class="comp-section">
-    <div class="comp-section-header">
-      <div class="section-title" style="margin:0">Competitor Intel — Nights We Operate</div>
-    </div>
-    <div id="competitorBody"></div>
-  </div>
 </main>
 
 <script>
@@ -245,18 +249,64 @@ const TOKENS = {
 };
 const BASE = 'https://production.speakeasygo.com/partners';
 
+const COMPETITORS = {
+  liv: [
+    { slug: 'omnia',    name: 'OMNIA',           group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=313&' },
+    { slug: 'xs',       name: 'XS',              group: 'Wynn',        url: 'wynn:xs' },
+    { slug: 'hakkasan', name: 'Hakkasan',         group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=314&' },
+    { slug: 'marquee',  name: 'Marquee',          group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=122&event_city=81&' },
+    { slug: 'zouk',     name: 'Zouk',             group: 'Independent', url: 'https://zoukgrouplv.com/events/zouk/' },
+    { slug: 'ebcnight', name: 'EBC at Night',     group: 'Wynn',        url: 'wynn:ebcnight' },
+  ],
+  beach: [
+    { slug: 'omniaday', name: 'OMNIA Dayclub',    group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=1006&event_city=81&' },
+    { slug: 'ebc',      name: 'Encore Beach Club',group: 'Wynn',        url: 'wynn:ebc' },
+    { slug: 'palmtree', name: 'Palm Tree Beach',  group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=895&event_city=81&' },
+    { slug: 'taobeach', name: 'Tao Beach',        group: 'TAO Group',   url: 'https://taogroup.com/events/?event_venue=325&event_city=81&' },
+    { slug: 'marqdayclub', name: 'Marquee Dayclub', group: 'TAO Group', url: 'https://taogroup.com/events/?event_venue=263&event_city=81&' },
+  ],
+};
+
+// ── LocalStorage intel ──────────────────────────────────
+function intelKey(eventDate, compSlug) {
+  return `compIntel_${eventDate.slice(0,10)}_${compSlug}`;
+}
+function loadIntel(eventDate, compSlug) {
+  try { return JSON.parse(localStorage.getItem(intelKey(eventDate, compSlug))) || {}; } catch { return {}; }
+}
+function saveIntel(eventDate, compSlug, field, value) {
+  const key = intelKey(eventDate, compSlug);
+  const data = loadIntel(eventDate, compSlug);
+  data[field] = value;
+  localStorage.setItem(key, JSON.stringify(data));
+}
+
+// ── Wynn dynamic URL ────────────────────────────────────
+function wynnUrl(slug, dateStr) {
+  const d = new Date(dateStr.replace(' ', 'T'));
+  const M = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+  const fmt = dt => `${M[dt.getMonth()]}-${String(dt.getDate()).padStart(2,'0')}-${dt.getFullYear()}`;
+  const next = new Date(d); next.setDate(d.getDate() + 1);
+  return `https://www.wynnsocial.com/events/${fmt(d)}/${fmt(next)}/${slug}/all/`;
+}
+function resolveUrl(url, dateStr) {
+  return url.startsWith('wynn:') ? wynnUrl(url.slice(5), dateStr) : url;
+}
+
+// ── State ───────────────────────────────────────────────
 let allEvents = [];
 let venueFilter = 'all';
 let sortField = 'date';
 let refreshTimer = null;
 let nextRefreshAt = null;
 
+// ── API fetch with pagination ───────────────────────────
 async function fetchAll(url, token) {
   const PAGE = 50;
   let skip = 0, list = [], total = null;
   while (total === null || skip < total) {
     const res = await fetch(`${url}&skip=${skip}&take=${PAGE}`, { headers: { token } });
-    if (!res.ok) throw new Error(`API error ${res.status} for ${url}`);
+    if (!res.ok) throw new Error(`API ${res.status}`);
     const data = await res.json();
     list = list.concat(data.list || []);
     total = data.total || list.length;
@@ -272,121 +322,149 @@ async function fetchVenue(key) {
     fetchAll(`${BASE}/events?orderBy=startDateTime%7Casc&version=PUBLISHED&eventStatus=APPROVED&status=ENABLED&timeVersion=UPCOMING&isDiscounted=false`, token),
     fetchAll(`${BASE}/events/statistics?`, token),
   ]);
-  const evtData = { list: evtList };
-  const statData = { list: statList };
-
   const statsMap = {};
-  (statData.list || []).forEach(s => { statsMap[s.event_id] = s; });
-
-  return (evtData.list || []).map(e => {
+  statList.forEach(s => { statsMap[s.event_id] = s; });
+  return evtList.map(e => {
     const s = statsMap[e.uniqueId] || {};
     return {
-      id: e.uniqueId,
-      title: e.title,
-      date: e.startDateTime,
-      venue: key,
-      ticketsSold: s.ticket_sold || 0,
-      revenue: s.total_revenue || 0,
-      last24h: s.ticket_sold_last_24_hours || 0,
-      ticketTypes: s.ticket_types || [],
+      id: e.uniqueId, title: e.title, date: e.startDateTime, venue: key,
+      ticketsSold: s.ticket_sold || 0, revenue: s.total_revenue || 0,
+      last24h: s.ticket_sold_last_24_hours || 0, ticketTypes: s.ticket_types || [],
     };
   });
 }
 
 async function loadData() {
   setStatus('loading', 'Loading live data…');
-  const btn = document.getElementById('refreshBtn');
-  btn.classList.add('spinning');
-
+  document.getElementById('refreshBtn').classList.add('spinning');
   try {
-    const [livEvents, beachEvents] = await Promise.all([
-      fetchVenue('liv'),
-      fetchVenue('beach'),
-    ]);
-
-    allEvents = [
-      ...livEvents.map(e => ({ ...e, venue: 'liv' })),
-      ...beachEvents.map(e => ({ ...e, venue: 'beach' })),
-    ];
-
+    const [livEvts, beachEvts] = await Promise.all([fetchVenue('liv'), fetchVenue('beach')]);
+    allEvents = [...livEvts, ...beachEvts];
     updateKPIs();
     renderEvents();
-    renderCompetitors();
-    setStatus('ok', `Last updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}`);
+    setStatus('ok', `Last updated ${new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'})}`);
     scheduleRefresh();
   } catch (err) {
     setStatus('error', `Error: ${err.message}`);
-    document.getElementById('eventsBody').innerHTML = `<div class="error-msg">Failed to load data. Check console for details.</div>`;
+    document.getElementById('eventsBody').innerHTML = `<div class="error-msg">Failed to load — ${err.message}</div>`;
     console.error(err);
   } finally {
-    btn.classList.remove('spinning');
+    document.getElementById('refreshBtn').classList.remove('spinning');
   }
 }
 
+// ── KPIs ────────────────────────────────────────────────
 function filteredEvents() {
-  let events = venueFilter === 'all' ? allEvents : allEvents.filter(e => e.venue === venueFilter);
-  return [...events].sort((a, b) => {
-    if (sortField === 'date') return new Date(a.date) - new Date(b.date);
+  let evts = venueFilter === 'all' ? allEvents : allEvents.filter(e => e.venue === venueFilter);
+  return [...evts].sort((a, b) => {
+    if (sortField === 'date')    return new Date(a.date) - new Date(b.date);
     if (sortField === 'tickets') return b.ticketsSold - a.ticketsSold;
     if (sortField === 'revenue') return b.revenue - a.revenue;
-    if (sortField === '24h') return b.last24h - a.last24h;
+    if (sortField === '24h')     return b.last24h - a.last24h;
     return 0;
   });
 }
 
 function updateKPIs() {
-  const events = filteredEvents();
-  const totalTickets = events.reduce((s, e) => s + e.ticketsSold, 0);
-  const totalRevenue = events.reduce((s, e) => s + e.revenue, 0);
-  const total24h = events.reduce((s, e) => s + e.last24h, 0);
-  const activeEvents = events.filter(e => e.ticketsSold > 0).length;
+  const evts = filteredEvents();
+  document.getElementById('kpiTickets').textContent = evts.reduce((s,e)=>s+e.ticketsSold,0).toLocaleString();
+  document.getElementById('kpiRevenue').textContent  = '$'+Math.round(evts.reduce((s,e)=>s+e.revenue,0)).toLocaleString();
+  const t24 = evts.reduce((s,e)=>s+e.last24h,0);
+  document.getElementById('kpi24h').textContent = t24 > 0 ? '+'+t24.toLocaleString() : '0';
+  document.getElementById('kpiEvents').textContent = evts.filter(e=>e.ticketsSold>0).length+' / '+evts.length;
 
-  document.getElementById('kpiTickets').textContent = totalTickets.toLocaleString();
-  document.getElementById('kpiRevenue').textContent = '$' + Math.round(totalRevenue).toLocaleString();
-  document.getElementById('kpi24h').textContent = total24h > 0 ? '+' + total24h.toLocaleString() : '0';
-  document.getElementById('kpiEvents').textContent = activeEvents + ' / ' + events.length;
-
-  // Venue split (always from full allEvents for the cards)
-  const livEvts = allEvents.filter(e => e.venue === 'liv');
-  const beachEvts = allEvents.filter(e => e.venue === 'beach');
-
-  const livT = livEvts.reduce((s, e) => s + e.ticketsSold, 0);
-  const livR = livEvts.reduce((s, e) => s + e.revenue, 0);
-  const liv24 = livEvts.reduce((s, e) => s + e.last24h, 0);
-  const beachT = beachEvts.reduce((s, e) => s + e.ticketsSold, 0);
-  const beachR = beachEvts.reduce((s, e) => s + e.revenue, 0);
-  const beach24 = beachEvts.reduce((s, e) => s + e.last24h, 0);
-
-  document.getElementById('livTickets').textContent = livT.toLocaleString();
-  document.getElementById('livRevenue').textContent = '$' + Math.round(livR).toLocaleString();
-  document.getElementById('liv24h').textContent = liv24 > 0 ? '+' + liv24 : '0';
-  document.getElementById('beachTickets').textContent = beachT.toLocaleString();
-  document.getElementById('beachRevenue').textContent = '$' + Math.round(beachR).toLocaleString();
-  document.getElementById('beach24h').textContent = beach24 > 0 ? '+' + beach24 : '0';
+  const livE = allEvents.filter(e=>e.venue==='liv'),   bchE = allEvents.filter(e=>e.venue==='beach');
+  document.getElementById('livTickets').textContent  = livE.reduce((s,e)=>s+e.ticketsSold,0).toLocaleString();
+  document.getElementById('livRevenue').textContent  = '$'+Math.round(livE.reduce((s,e)=>s+e.revenue,0)).toLocaleString();
+  document.getElementById('liv24h').textContent      = livE.reduce((s,e)=>s+e.last24h,0)||0;
+  document.getElementById('beachTickets').textContent= bchE.reduce((s,e)=>s+e.ticketsSold,0).toLocaleString();
+  document.getElementById('beachRevenue').textContent= '$'+Math.round(bchE.reduce((s,e)=>s+e.revenue,0)).toLocaleString();
+  document.getElementById('beach24h').textContent    = bchE.reduce((s,e)=>s+e.last24h,0)||0;
 }
 
+// ── Competitor panel HTML ───────────────────────────────
+function buildCompPanel(event) {
+  const compList = COMPETITORS[event.venue];
+  const label = event.venue === 'liv' ? 'LIV Las Vegas Competitors' : 'LIV Beach Competitors';
+
+  const cards = compList.map(c => {
+    const intel = loadIntel(event.date, c.slug);
+    const href  = resolveUrl(c.url, event.date);
+    const hasA  = intel.artist  ? ' has-value' : '';
+    const hasM  = intel.mPrice  ? ' has-value' : '';
+    const hasF  = intel.fPrice  ? ' has-value' : '';
+    return `<div class="comp-card">
+      <div class="comp-card-top">
+        <div>
+          <div class="comp-card-name">${escHtml(c.name)}</div>
+          <div class="comp-card-group">${escHtml(c.group)}</div>
+        </div>
+        <a class="comp-link-btn" href="${escHtml(href)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Events ↗</a>
+      </div>
+      <div class="comp-fields">
+        <div class="comp-field">
+          <label>Artist</label>
+          <input type="text" class="${hasA}" placeholder="Enter artist"
+            value="${escHtml(intel.artist||'')}"
+            data-date="${escHtml(event.date)}" data-slug="${escHtml(c.slug)}" data-field="artist"
+            onclick="event.stopPropagation()" onblur="handleIntelSave(this)">
+        </div>
+        <div class="comp-field">
+          <label>Male GA</label>
+          <input type="text" class="${hasM}" placeholder="$0"
+            value="${escHtml(intel.mPrice||'')}"
+            data-date="${escHtml(event.date)}" data-slug="${escHtml(c.slug)}" data-field="mPrice"
+            onclick="event.stopPropagation()" onblur="handleIntelSave(this)">
+        </div>
+        <div class="comp-field">
+          <label>Female GA</label>
+          <input type="text" class="${hasF}" placeholder="$0"
+            value="${escHtml(intel.fPrice||'')}"
+            data-date="${escHtml(event.date)}" data-slug="${escHtml(c.slug)}" data-field="fPrice"
+            onclick="event.stopPropagation()" onblur="handleIntelSave(this)">
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `<div class="comp-panel">
+    <div class="comp-panel-title">Competitor Intel — ${new Date(event.date.replace(' ','T')).toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})}</div>
+    <div class="comp-group-label">${escHtml(label)}</div>
+    <div class="comp-grid">${cards}</div>
+  </div>`;
+}
+
+function handleIntelSave(input) {
+  const { date, slug, field } = input.dataset;
+  saveIntel(date, slug, field, input.value.trim());
+  input.classList.toggle('has-value', !!input.value.trim());
+  input.classList.add('saved-flash');
+  setTimeout(() => input.classList.remove('saved-flash'), 600);
+}
+
+// ── Events table ────────────────────────────────────────
 function renderEvents() {
   const events = filteredEvents();
   if (!events.length) {
-    document.getElementById('eventsBody').innerHTML = '<div class="loading-overlay"><span style="color:var(--text-muted)">No events found.</span></div>';
+    document.getElementById('eventsBody').innerHTML = '<div class="loading-overlay"><span>No events found.</span></div>';
     return;
   }
+  const maxTix = Math.max(...events.map(e => e.ticketsSold), 1);
 
-  const maxTickets = Math.max(...events.map(e => e.ticketsSold), 1);
-
-  const rows = events.map(e => {
-    const dateStr = formatDate(e.date);
-    const pct = Math.round((e.ticketsSold / maxTickets) * 100);
-    const deltaClass = e.last24h > 0 ? 'delta-pos' : 'delta-zero';
-    const deltaText = e.last24h > 0 ? `▲ ${e.last24h}` : '—';
-    const tag = e.venue === 'liv'
+  const rows = events.map((e, i) => {
+    const pct   = Math.round((e.ticketsSold / maxTix) * 100);
+    const tag   = e.venue === 'liv'
       ? '<span class="event-venue-tag tag-liv">LIV</span>'
       : '<span class="event-venue-tag tag-beach">BEACH</span>';
+    const deltaClass = e.last24h > 0 ? 'delta-pos' : 'delta-zero';
+    const top   = topTicketType(e.ticketTypes);
+    const expandId = `expand-${i}`;
 
-    return `<tr>
+    const mainRow = `<tr class="ev-main-row" onclick="toggleExpand('${expandId}', this)">
+      <td class="ev-toggle-cell"><span class="ev-toggle-icon">+</span></td>
       <td>
         <div class="event-name">${escHtml(e.title)}${tag}</div>
-        <div class="event-date">${dateStr}</div>
+        <div class="event-date">${formatDate(e.date)}</div>
       </td>
       <td>
         <div class="pacing-bar-wrap">
@@ -395,148 +473,63 @@ function renderEvents() {
         </div>
       </td>
       <td>$${Math.round(e.revenue).toLocaleString()}</td>
-      <td><span class="delta-badge ${deltaClass}">${deltaText}</span></td>
-      <td style="font-size:12px;color:var(--text-muted)">${topTicketType(e.ticketTypes)}</td>
+      <td><span class="delta-badge ${deltaClass}">${e.last24h > 0 ? '▲ '+e.last24h : '—'}</span></td>
+      <td style="font-size:12px;color:var(--text-muted)">${top}</td>
     </tr>`;
+
+    const expandRow = `<tr class="ev-expand-row" id="${expandId}">
+      <td class="ev-expand-cell" colspan="6">${buildCompPanel(e)}</td>
+    </tr>`;
+
+    return mainRow + expandRow;
   }).join('');
 
   document.getElementById('eventsBody').innerHTML = `
     <table class="events-table">
-      <thead>
-        <tr>
-          <th>Event</th>
-          <th>Tickets Sold</th>
-          <th>Revenue</th>
-          <th>24h Lift</th>
-          <th>Top Ticket</th>
-        </tr>
-      </thead>
+      <thead><tr>
+        <th style="width:36px"></th>
+        <th>Event</th>
+        <th>Tickets Sold</th>
+        <th>Revenue</th>
+        <th>24h Lift</th>
+        <th>Top Ticket</th>
+      </tr></thead>
       <tbody>${rows}</tbody>
     </table>`;
 }
 
-const COMPETITORS = {
-  liv: [
-    { name: 'OMNIA',                  group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=313&' },
-    { name: 'XS',                     group: 'Wynn',       url: 'wynn:xs' },
-    { name: 'Hakkasan',               group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=314&' },
-    { name: 'Marquee',                group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=122&event_city=81&' },
-    { name: 'Zouk',                   group: 'Independent',url: 'https://zoukgrouplv.com/events/zouk/' },
-    { name: 'EBC at Night',           group: 'Wynn',       url: 'wynn:ebcnight' },
-  ],
-  beach: [
-    { name: 'OMNIA Dayclub',          group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=1006&event_city=81&' },
-    { name: 'Encore Beach Club',      group: 'Wynn',       url: 'wynn:ebc' },
-    { name: 'Palm Tree Beach Club',   group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=895&event_city=81&' },
-    { name: 'Tao Beach',              group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=325&event_city=81&' },
-    { name: 'Marquee Dayclub',        group: 'TAO Group',  url: 'https://taogroup.com/events/?event_venue=263&event_city=81&' },
-  ],
-};
-
-function wynnUrl(venueSlug, dateStr) {
-  const d = new Date(dateStr.replace(' ', 'T'));
-  const MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
-  const fmt = dt => `${MONTHS[dt.getMonth()]}-${String(dt.getDate()).padStart(2,'0')}-${dt.getFullYear()}`;
-  const next = new Date(d); next.setDate(d.getDate() + 1);
-  return `https://www.wynnsocial.com/events/${fmt(d)}/${fmt(next)}/${venueSlug}/all/`;
+function toggleExpand(expandId, mainRow) {
+  const panel = document.getElementById(expandId);
+  const isOpen = panel.classList.contains('open');
+  panel.classList.toggle('open', !isOpen);
+  mainRow.classList.toggle('expanded', !isOpen);
 }
 
-function resolveUrl(url, dateStr) {
-  if (url.startsWith('wynn:')) return wynnUrl(url.slice(5), dateStr);
-  return url;
-}
-
-function renderCompetitors() {
-  // Group allEvents by date string (YYYY-MM-DD), tracking which venues operate each day
-  const dateMap = {};
-  allEvents.forEach(e => {
-    const day = e.date.slice(0, 10);
-    if (!dateMap[day]) dateMap[day] = { liv: false, beach: false, date: e.date };
-    if (e.venue === 'liv') dateMap[day].liv = true;
-    if (e.venue === 'beach') dateMap[day].beach = true;
-  });
-
-  const days = Object.keys(dateMap).sort();
-  if (!days.length) { document.getElementById('competitorBody').innerHTML = ''; return; }
-
-  const blocks = days.map((day, i) => {
-    const { liv, beach, date } = dateMap[day];
-    const dateLabel = new Date(date.replace(' ', 'T')).toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
-    const opBadges = [
-      liv   ? '<span class="comp-op-badge comp-op-liv">LIV</span>' : '',
-      beach ? '<span class="comp-op-badge comp-op-beach">LIV Beach</span>' : '',
-    ].join('');
-
-    let bodyHtml = '';
-    if (liv) {
-      const cards = COMPETITORS.liv.map(c => {
-        const href = resolveUrl(c.url, date);
-        return `<a class="comp-card" href="${href}" target="_blank" rel="noopener">
-          <div class="comp-card-left">
-            <div class="comp-card-name">${escHtml(c.name)}</div>
-            <div class="comp-card-group">${escHtml(c.group)}</div>
-          </div>
-          <span class="comp-card-arrow">↗</span>
-        </a>`;
-      }).join('');
-      bodyHtml += `<div class="comp-group-label">LIV Las Vegas Competitors</div><div class="comp-grid">${cards}</div>`;
-    }
-    if (beach) {
-      const cards = COMPETITORS.beach.map(c => {
-        const href = resolveUrl(c.url, date);
-        return `<a class="comp-card" href="${href}" target="_blank" rel="noopener">
-          <div class="comp-card-left">
-            <div class="comp-card-name">${escHtml(c.name)}</div>
-            <div class="comp-card-group">${escHtml(c.group)}</div>
-          </div>
-          <span class="comp-card-arrow">↗</span>
-        </a>`;
-      }).join('');
-      bodyHtml += `<div class="comp-group-label">LIV Beach Competitors</div><div class="comp-grid">${cards}</div>`;
-    }
-
-    return `<div class="comp-date-block${i === 0 ? ' open' : ''}">
-      <div class="comp-date-header" onclick="this.parentElement.classList.toggle('open')">
-        <span class="comp-date-label">${escHtml(dateLabel)}</span>
-        <div class="comp-ops">${opBadges}</div>
-        <span class="comp-chevron">▼</span>
-      </div>
-      <div class="comp-body">${bodyHtml}</div>
-    </div>`;
-  }).join('');
-
-  document.getElementById('competitorBody').innerHTML = blocks;
-}
-
+// ── Helpers ─────────────────────────────────────────────
 function topTicketType(types) {
   if (!types || !types.length) return '—';
-  const top = types.reduce((a, b) => b.tickets_sold > a.tickets_sold ? b : a, types[0]);
+  const top = types.reduce((a,b) => b.tickets_sold > a.tickets_sold ? b : a, types[0]);
   if (!top.tickets_sold) return '—';
-  return escHtml(top.ticket_name.replace('General Admission', 'GA').replace('VIP Backstage Access - ', 'VIP ').replace('Expedited Admission', 'Expedited'));
+  return escHtml(top.ticket_name.replace('General Admission','GA').replace('VIP Backstage Access - ','VIP ').replace('Expedited Admission','Expedited'));
 }
 
 function formatDate(dt) {
-  const d = new Date(dt.replace(' ', 'T'));
-  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+  return new Date(dt.replace(' ','T')).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
 }
 
 function escHtml(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 function setStatus(state, msg) {
-  const dot = document.getElementById('statusDot');
-  dot.className = 'status-dot' + (state === 'error' ? ' error' : state === 'loading' ? ' loading' : '');
+  document.getElementById('statusDot').className = 'status-dot'+(state==='error'?' error':state==='loading'?' loading':'');
   document.getElementById('statusText').textContent = msg;
 }
 
 function setVenueFilter(v) {
   venueFilter = v;
-  document.querySelectorAll('.venue-tab').forEach((t, i) => {
-    t.classList.toggle('active', ['all','liv','beach'][i] === v);
-  });
-  updateKPIs();
-  renderEvents();
+  document.querySelectorAll('.venue-tab').forEach((t,i) => t.classList.toggle('active', ['all','liv','beach'][i]===v));
+  updateKPIs(); renderEvents();
 }
 
 function setSortFilter(field, btn) {
@@ -548,7 +541,7 @@ function setSortFilter(field, btn) {
 
 function scheduleRefresh() {
   clearTimeout(refreshTimer);
-  const INTERVAL = 5 * 60 * 1000; // 5 minutes
+  const INTERVAL = 5 * 60 * 1000;
   nextRefreshAt = Date.now() + INTERVAL;
   refreshTimer = setTimeout(loadData, INTERVAL);
   updateCountdown();
@@ -556,14 +549,11 @@ function scheduleRefresh() {
 
 function updateCountdown() {
   if (!nextRefreshAt) return;
-  const remaining = Math.max(0, Math.round((nextRefreshAt - Date.now()) / 1000));
-  const m = Math.floor(remaining / 60);
-  const s = remaining % 60;
-  document.getElementById('nextRefresh').textContent = `Auto-refresh in ${m}:${String(s).padStart(2, '0')}`;
-  if (remaining > 0) setTimeout(updateCountdown, 1000);
+  const s = Math.max(0, Math.round((nextRefreshAt - Date.now()) / 1000));
+  document.getElementById('nextRefresh').textContent = `Auto-refresh in ${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
+  if (s > 0) setTimeout(updateCountdown, 1000);
 }
 
-// Boot
 loadData();
 </script>
 </body>
