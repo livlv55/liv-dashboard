@@ -269,7 +269,7 @@ const COMPETITORS = {
 
 // ── LocalStorage intel ──────────────────────────────────
 function intelKey(eventDate, compSlug) {
-  return `compIntel_${eventDate.slice(0,10)}_${compSlug}`;
+  return `compIntel_${ptDateStr(eventDate)}_${compSlug}`;
 }
 function loadIntel(eventDate, compSlug) {
   try { return JSON.parse(localStorage.getItem(intelKey(eventDate, compSlug))) || {}; } catch { return {}; }
@@ -283,9 +283,12 @@ function saveIntel(eventDate, compSlug, field, value) {
 
 // ── Wynn dynamic URL ────────────────────────────────────
 function wynnUrl(slug, dateStr) {
-  const d = new Date(dateStr.replace(' ', 'T'));
+  const d = ptDate(dateStr);
   const M = ['january','february','march','april','may','june','july','august','september','october','november','december'];
-  const fmt = dt => `${M[dt.getMonth()]}-${String(dt.getDate()).padStart(2,'0')}-${dt.getFullYear()}`;
+  const fmt = dt => {
+    const [y, mo, da] = dt.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }).split('-');
+    return `${M[parseInt(mo,10)-1]}-${da}-${y}`;
+  };
   const next = new Date(d); next.setDate(d.getDate() + 1);
   return `https://www.wynnsocial.com/events/${fmt(d)}/${fmt(next)}/${slug}/all/`;
 }
@@ -310,8 +313,7 @@ async function loadCompetitorData() {
 }
 
 function getScrapedArtist(eventDate, compSlug) {
-  const day = eventDate.slice(0, 10);
-  return competitorData[day]?.[compSlug]?.artist || null;
+  return competitorData[ptDateStr(eventDate)]?.[compSlug]?.artist || null;
 }
 
 // ── State ───────────────────────────────────────────────
@@ -539,8 +541,20 @@ function topTicketType(types) {
   return escHtml(top.ticket_name.replace('General Admission','GA').replace('VIP Backstage Access - ','VIP ').replace('Expedited Admission','Expedited'));
 }
 
+// Speakeasy stores times in UTC. A 10:30pm PT event = 05:30am UTC next day,
+// so we must parse as UTC and display in PT to get the correct event date.
+function ptDate(dt) {
+  return new Date(dt.replace(' ', 'T') + 'Z');
+}
+function ptDateStr(dt) {
+  // Returns YYYY-MM-DD in PT — used for competitor data key matching
+  return ptDate(dt).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+}
 function formatDate(dt) {
-  return new Date(dt.replace(' ','T')).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
+  return ptDate(dt).toLocaleDateString('en-US', {
+    weekday: 'short', month: 'short', day: 'numeric', year: 'numeric',
+    timeZone: 'America/Los_Angeles',
+  });
 }
 
 function escHtml(s) {
