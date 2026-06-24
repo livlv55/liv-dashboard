@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIV Nightlife — Ticket Sales Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C96A;
+    --bg: #0A0A0A;
+    --surface: #141414;
+    --surface2: #1E1E1E;
+    --surface3: #2A2A2A;
+    --text: #F0F0F0;
+    --text-muted: #888;
+    --green: #4CAF82;
+    --red: #E05A5A;
+    --blue: #5A9BE0;
+    --border: #2A2A2A;
+  }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; min-height: 100vh; }
+
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+  .logo { display: flex; align-items: center; gap: 12px; }
+  .logo-mark { width: 32px; height: 32px; background: var(--gold); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; color: #000; letter-spacing: -1px; }
+  .logo-text { font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+  .logo-sub { font-size: 11px; color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; }
+
+  .header-right { display: flex; align-items: center; gap: 16px; }
+  .venue-tabs { display: flex; gap: 4px; background: var(--surface2); border-radius: 8px; padding: 4px; }
+  .venue-tab { padding: 6px 14px; border-radius: 6px; border: none; background: none; color: var(--text-muted); cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.15s; }
+  .venue-tab.active { background: var(--gold); color: #000; font-weight: 700; }
+  .refresh-btn { padding: 7px 14px; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; color: var(--text); cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 6px; transition: all 0.15s; }
+  .refresh-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .refresh-btn.spinning svg { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .status-bar { padding: 8px 24px; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+  .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s ease-in-out infinite; }
+  .status-dot.error { background: var(--red); animation: none; }
+  .status-dot.loading { background: var(--gold); }
+  @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.4} }
+
+  main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .kpi-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; position: relative; overflow: hidden; }
+  .kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--gold); opacity: 0.6; }
+  .kpi-label { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 10px; }
+  .kpi-value { font-size: 32px; font-weight: 700; letter-spacing: -1px; }
+  .kpi-delta { margin-top: 6px; font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; }
+  .kpi-delta .up { color: var(--green); }
+  .kpi-delta .down { color: var(--red); }
+
+  .section-title { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 14px; font-weight: 600; }
+
+  .venue-split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .venue-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+  .venue-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+  .venue-name { font-size: 15px; font-weight: 700; }
+  .venue-badge { font-size: 10px; padding: 3px 8px; border-radius: 20px; font-weight: 600; letter-spacing: 0.5px; }
+  .badge-liv { background: rgba(201,168,76,0.15); color: var(--gold); border: 1px solid rgba(201,168,76,0.3); }
+  .badge-beach { background: rgba(90,155,224,0.15); color: var(--blue); border: 1px solid rgba(90,155,224,0.3); }
+  .venue-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .venue-stat { text-align: center; }
+  .venue-stat-val { font-size: 22px; font-weight: 700; }
+  .venue-stat-label { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+  .events-section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .events-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .events-filter { display: flex; gap: 4px; }
+  .filter-btn { padding: 5px 12px; border-radius: 6px; border: 1px solid var(--border); background: none; color: var(--text-muted); font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .filter-btn.active { background: var(--surface3); color: var(--text); border-color: var(--surface3); }
+  .events-table { width: 100%; border-collapse: collapse; }
+  .events-table th { padding: 10px 20px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); border-bottom: 1px solid var(--border); font-weight: 600; background: var(--surface2); }
+  .events-table td { padding: 14px 20px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: middle; }
+  .events-table tr:last-child td { border-bottom: none; }
+  .events-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .event-name { font-weight: 600; font-size: 14px; }
+  .event-date { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+  .event-venue-tag { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; margin-left: 8px; vertical-align: middle; }
+  .tag-liv { background: rgba(201,168,76,0.12); color: var(--gold); }
+  .tag-beach { background: rgba(90,155,224,0.12); color: var(--blue); }
+  .pacing-bar-wrap { display: flex; align-items: center; gap: 10px; }
+  .pacing-bar { flex: 1; height: 6px; background: var(--surface3); border-radius: 3px; overflow: hidden; max-width: 120px; }
+  .pacing-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width 0.6s ease; }
+  .pacing-pct { font-size: 12px; color: var(--text-muted); min-width: 36px; }
+  .delta-badge { display: inline-flex; align-items: center; gap: 3px; padding: 3px 8px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .delta-pos { background: rgba(76,175,130,0.12); color: var(--green); }
+  .delta-zero { background: var(--surface3); color: var(--text-muted); }
+  .sort-th { cursor: pointer; user-select: none; }
+  .sort-th:hover { color: var(--text); }
+  .sort-icon { margin-left: 4px; opacity: 0.5; }
+
+  .loading-overlay { display: flex; align-items: center; justify-content: center; padding: 60px; color: var(--text-muted); flex-direction: column; gap: 12px; }
+  .spinner { width: 28px; height: 28px; border: 2px solid var(--surface3); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  .error-msg { padding: 40px; text-align: center; color: var(--red); }
+
+  .auto-refresh-label { font-size: 11px; color: var(--text-muted); }
+
+  @media (max-width: 900px) {
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .venue-split { grid-template-columns: 1fr; }
+    header { flex-wrap: wrap; gap: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">LIV</div>
+    <div>
+      <div class="logo-text">Fontainebleau Nightlife</div>
+      <div class="logo-sub">Ticket Sales Dashboard</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="venue-tabs">
+      <button class="venue-tab active" onclick="setVenueFilter('all')">All Venues</button>
+      <button class="venue-tab" onclick="setVenueFilter('liv')">LIV</button>
+      <button class="venue-tab" onclick="setVenueFilter('beach')">LIV Beach</button>
+    </div>
+    <button class="refresh-btn" id="refreshBtn" onclick="loadData()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      Refresh
+    </button>
+  </div>
+</header>
+
+<div class="status-bar">
+  <div class="status-dot" id="statusDot"></div>
+  <span id="statusText">Loading data…</span>
+  <span style="margin-left:auto" class="auto-refresh-label" id="nextRefresh"></span>
+</div>
+
+<main>
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Total Tickets Sold</div>
+      <div class="kpi-value" id="kpiTickets">—</div>
+      <div class="kpi-delta" id="kpiTicketsDelta"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total Revenue</div>
+      <div class="kpi-value" id="kpiRevenue">—</div>
+      <div class="kpi-delta" id="kpiRevenueDelta"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">24hr Ticket Sales</div>
+      <div class="kpi-value" id="kpi24h">—</div>
+      <div class="kpi-delta">across all upcoming events</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Active Events</div>
+      <div class="kpi-value" id="kpiEvents">—</div>
+      <div class="kpi-delta" id="kpiEventsDelta"></div>
+    </div>
+  </div>
+
+  <div class="venue-split">
+    <div class="venue-card" id="livCard">
+      <div class="venue-card-header">
+        <div class="venue-name">LIV Las Vegas</div>
+        <span class="venue-badge badge-liv">NIGHTCLUB</span>
+      </div>
+      <div class="venue-stats">
+        <div class="venue-stat"><div class="venue-stat-val" id="livTickets">—</div><div class="venue-stat-label">Tickets Sold</div></div>
+        <div class="venue-stat"><div class="venue-stat-val" id="livRevenue">—</div><div class="venue-stat-label">Revenue</div></div>
+        <div class="venue-stat"><div class="venue-stat-val" id="liv24h">—</div><div class="venue-stat-label">Last 24h</div></div>
+      </div>
+    </div>
+    <div class="venue-card" id="beachCard">
+      <div class="venue-card-header">
+        <div class="venue-name">LIV Beach</div>
+        <span class="venue-badge badge-beach">BEACH CLUB</span>
+      </div>
+      <div class="venue-stats">
+        <div class="venue-stat"><div class="venue-stat-val" id="beachTickets">—</div><div class="venue-stat-label">Tickets Sold</div></div>
+        <div class="venue-stat"><div class="venue-stat-val" id="beachRevenue">—</div><div class="venue-stat-label">Revenue</div></div>
+        <div class="venue-stat"><div class="venue-stat-val" id="beach24h">—</div><div class="venue-stat-label">Last 24h</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="events-section">
+    <div class="events-header">
+      <div class="section-title" style="margin:0">Upcoming Events</div>
+      <div class="events-filter">
+        <button class="filter-btn active" onclick="setSortFilter('date', this)">By Date</button>
+        <button class="filter-btn" onclick="setSortFilter('tickets', this)">By Tickets</button>
+        <button class="filter-btn" onclick="setSortFilter('revenue', this)">By Revenue</button>
+        <button class="filter-btn" onclick="setSortFilter('24h', this)">By 24h Lift</button>
+      </div>
+    </div>
+    <div id="eventsBody">
+      <div class="loading-overlay"><div class="spinner"></div><span>Fetching live data…</span></div>
+    </div>
+  </div>
+</main>
+
+<script>
+const TOKENS = {
+  liv:   '9QRm0GFvcZ3GjGUzdlpJCP9vEtB/51xMGPiRV5V1ldFIPJDWe75UP3M9MR80+5ps0Z1kuHmEGzxNyTwZIzFjJkg0PxPZrWCKTJeNuSuONcyMk6b2zjU6WwdMqSbIRRuey750CZzjyYbh0bDOcxwnyw==',
+  beach: '9QRm0GFvcZ3GjGUzdlpJCP9vEtB/51xMGPiRV5V1ldFIPJDWe75UP3M9MR80+5psbnKfbZ3pjdt8RwQ2zqHh7L6UsnDquR5aMF+ZedUuYwAnGIlHWYvFtGTdwp11Amm/M0fX1ELGh6/Y7x3Tp2duQw==',
+};
+const BASE = 'https://production.speakeasygo.com/partners';
+
+let allEvents = [];
+let venueFilter = 'all';
+let sortField = 'date';
+let refreshTimer = null;
+let nextRefreshAt = null;
+
+async function fetchAll(url, token) {
+  const PAGE = 50;
+  let skip = 0, list = [], total = null;
+  while (total === null || skip < total) {
+    const res = await fetch(`${url}&skip=${skip}&take=${PAGE}`, { headers: { token } });
+    if (!res.ok) throw new Error(`API error ${res.status} for ${url}`);
+    const data = await res.json();
+    list = list.concat(data.list || []);
+    total = data.total || list.length;
+    skip += PAGE;
+    if (!data.hasMany || list.length >= total) break;
+  }
+  return list;
+}
+
+async function fetchVenue(key) {
+  const token = TOKENS[key];
+  const [evtList, statList] = await Promise.all([
+    fetchAll(`${BASE}/events?orderBy=startDateTime%7Casc&version=PUBLISHED&eventStatus=APPROVED&status=ENABLED&timeVersion=UPCOMING&isDiscounted=false`, token),
+    fetchAll(`${BASE}/events/statistics?`, token),
+  ]);
+  const evtData = { list: evtList };
+  const statData = { list: statList };
+
+  const statsMap = {};
+  (statData.list || []).forEach(s => { statsMap[s.event_id] = s; });
+
+  return (evtData.list || []).map(e => {
+    const s = statsMap[e.uniqueId] || {};
+    return {
+      id: e.uniqueId,
+      title: e.title,
+      date: e.startDateTime,
+      venue: key,
+      ticketsSold: s.ticket_sold || 0,
+      revenue: s.total_revenue || 0,
+      last24h: s.ticket_sold_last_24_hours || 0,
+      ticketTypes: s.ticket_types || [],
+    };
+  });
+}
+
+async function loadData() {
+  setStatus('loading', 'Loading live data…');
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+
+  try {
+    const [livEvents, beachEvents] = await Promise.all([
+      fetchVenue('liv'),
+      fetchVenue('beach'),
+    ]);
+
+    allEvents = [
+      ...livEvents.map(e => ({ ...e, venue: 'liv' })),
+      ...beachEvents.map(e => ({ ...e, venue: 'beach' })),
+    ];
+
+    updateKPIs();
+    renderEvents();
+    setStatus('ok', `Last updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}`);
+    scheduleRefresh();
+  } catch (err) {
+    setStatus('error', `Error: ${err.message}`);
+    document.getElementById('eventsBody').innerHTML = `<div class="error-msg">Failed to load data. Check console for details.</div>`;
+    console.error(err);
+  } finally {
+    btn.classList.remove('spinning');
+  }
+}
+
+function filteredEvents() {
+  let events = venueFilter === 'all' ? allEvents : allEvents.filter(e => e.venue === venueFilter);
+  return [...events].sort((a, b) => {
+    if (sortField === 'date') return new Date(a.date) - new Date(b.date);
+    if (sortField === 'tickets') return b.ticketsSold - a.ticketsSold;
+    if (sortField === 'revenue') return b.revenue - a.revenue;
+    if (sortField === '24h') return b.last24h - a.last24h;
+    return 0;
+  });
+}
+
+function updateKPIs() {
+  const events = filteredEvents();
+  const totalTickets = events.reduce((s, e) => s + e.ticketsSold, 0);
+  const totalRevenue = events.reduce((s, e) => s + e.revenue, 0);
+  const total24h = events.reduce((s, e) => s + e.last24h, 0);
+  const activeEvents = events.filter(e => e.ticketsSold > 0).length;
+
+  document.getElementById('kpiTickets').textContent = totalTickets.toLocaleString();
+  document.getElementById('kpiRevenue').textContent = '$' + Math.round(totalRevenue).toLocaleString();
+  document.getElementById('kpi24h').textContent = total24h > 0 ? '+' + total24h.toLocaleString() : '0';
+  document.getElementById('kpiEvents').textContent = activeEvents + ' / ' + events.length;
+
+  // Venue split (always from full allEvents for the cards)
+  const livEvts = allEvents.filter(e => e.venue === 'liv');
+  const beachEvts = allEvents.filter(e => e.venue === 'beach');
+
+  const livT = livEvts.reduce((s, e) => s + e.ticketsSold, 0);
+  const livR = livEvts.reduce((s, e) => s + e.revenue, 0);
+  const liv24 = livEvts.reduce((s, e) => s + e.last24h, 0);
+  const beachT = beachEvts.reduce((s, e) => s + e.ticketsSold, 0);
+  const beachR = beachEvts.reduce((s, e) => s + e.revenue, 0);
+  const beach24 = beachEvts.reduce((s, e) => s + e.last24h, 0);
+
+  document.getElementById('livTickets').textContent = livT.toLocaleString();
+  document.getElementById('livRevenue').textContent = '$' + Math.round(livR).toLocaleString();
+  document.getElementById('liv24h').textContent = liv24 > 0 ? '+' + liv24 : '0';
+  document.getElementById('beachTickets').textContent = beachT.toLocaleString();
+  document.getElementById('beachRevenue').textContent = '$' + Math.round(beachR).toLocaleString();
+  document.getElementById('beach24h').textContent = beach24 > 0 ? '+' + beach24 : '0';
+}
+
+function renderEvents() {
+  const events = filteredEvents();
+  if (!events.length) {
+    document.getElementById('eventsBody').innerHTML = '<div class="loading-overlay"><span style="color:var(--text-muted)">No events found.</span></div>';
+    return;
+  }
+
+  const maxTickets = Math.max(...events.map(e => e.ticketsSold), 1);
+
+  const rows = events.map(e => {
+    const dateStr = formatDate(e.date);
+    const pct = Math.round((e.ticketsSold / maxTickets) * 100);
+    const deltaClass = e.last24h > 0 ? 'delta-pos' : 'delta-zero';
+    const deltaText = e.last24h > 0 ? `▲ ${e.last24h}` : '—';
+    const tag = e.venue === 'liv'
+      ? '<span class="event-venue-tag tag-liv">LIV</span>'
+      : '<span class="event-venue-tag tag-beach">BEACH</span>';
+
+    return `<tr>
+      <td>
+        <div class="event-name">${escHtml(e.title)}${tag}</div>
+        <div class="event-date">${dateStr}</div>
+      </td>
+      <td>
+        <div class="pacing-bar-wrap">
+          <div class="pacing-bar"><div class="pacing-fill" style="width:${pct}%"></div></div>
+          <span class="pacing-pct">${e.ticketsSold.toLocaleString()}</span>
+        </div>
+      </td>
+      <td>$${Math.round(e.revenue).toLocaleString()}</td>
+      <td><span class="delta-badge ${deltaClass}">${deltaText}</span></td>
+      <td style="font-size:12px;color:var(--text-muted)">${topTicketType(e.ticketTypes)}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('eventsBody').innerHTML = `
+    <table class="events-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Tickets Sold</th>
+          <th>Revenue</th>
+          <th>24h Lift</th>
+          <th>Top Ticket</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+function topTicketType(types) {
+  if (!types || !types.length) return '—';
+  const top = types.reduce((a, b) => b.tickets_sold > a.tickets_sold ? b : a, types[0]);
+  if (!top.tickets_sold) return '—';
+  return escHtml(top.ticket_name.replace('General Admission', 'GA').replace('VIP Backstage Access - ', 'VIP ').replace('Expedited Admission', 'Expedited'));
+}
+
+function formatDate(dt) {
+  const d = new Date(dt.replace(' ', 'T'));
+  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function setStatus(state, msg) {
+  const dot = document.getElementById('statusDot');
+  dot.className = 'status-dot' + (state === 'error' ? ' error' : state === 'loading' ? ' loading' : '');
+  document.getElementById('statusText').textContent = msg;
+}
+
+function setVenueFilter(v) {
+  venueFilter = v;
+  document.querySelectorAll('.venue-tab').forEach((t, i) => {
+    t.classList.toggle('active', ['all','liv','beach'][i] === v);
+  });
+  updateKPIs();
+  renderEvents();
+}
+
+function setSortFilter(field, btn) {
+  sortField = field;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderEvents();
+}
+
+function scheduleRefresh() {
+  clearTimeout(refreshTimer);
+  const INTERVAL = 5 * 60 * 1000; // 5 minutes
+  nextRefreshAt = Date.now() + INTERVAL;
+  refreshTimer = setTimeout(loadData, INTERVAL);
+  updateCountdown();
+}
+
+function updateCountdown() {
+  if (!nextRefreshAt) return;
+  const remaining = Math.max(0, Math.round((nextRefreshAt - Date.now()) / 1000));
+  const m = Math.floor(remaining / 60);
+  const s = remaining % 60;
+  document.getElementById('nextRefresh').textContent = `Auto-refresh in ${m}:${String(s).padStart(2, '0')}`;
+  if (remaining > 0) setTimeout(updateCountdown, 1000);
+}
+
+// Boot
+loadData();
+</script>
+</body>
+</html>
