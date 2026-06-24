@@ -1,0 +1,578 @@
+{
+  "updated": "2026-06-24T22:26:12.687Z",
+  "note": "TAO Group venues only. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
+  "events": {
+    "2026-10-01": {
+      "omnia": {
+        "artist": "Thursdays on the Terrace",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Palm Tree Beach Club Thursday",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Daybreak Thursdays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-10": {
+      "omnia": {
+        "artist": "DJ Pauly D",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "TWINSICK",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "DJ Snake",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Kygo",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "Elderbrook",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-11": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Dayclub Sunday",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Palm Tree Beach Club Sunday",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Sunday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-13": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-15": {
+      "omnia": {
+        "artist": "Thursdays on the Terrace",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-16": {
+      "omnia": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Dayclub Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-17": {
+      "omnia": {
+        "artist": "Zedd",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Dayclub Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-18": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Dayclub Sunday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-02": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Timmy Trumpet",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Dayclub Friday",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Good Life Fridays",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-20": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-22": {
+      "omnia": {
+        "artist": "Thursdays on the Terrace",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-23": {
+      "omnia": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Benny Benassi",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-24": {
+      "omnia": {
+        "artist": "Zedd",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-25": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-27": {
+      "omnia": {
+        "artist": "Alesso",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-29": {
+      "omnia": {
+        "artist": "Thursdays on the Terrace",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Benny Benassi",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-03": {
+      "omnia": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Wiz Khalifa",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Cedric Gervais",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Chris Lake",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Alesso",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "TWINSICK",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-14": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-21": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-28": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-31": {
+      "hakkasan": {
+        "artist": "Mustard",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Martin Garrix",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-07": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Palm Tree Beach Club",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-08": {
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Palm Tree Beach Club Thursday",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Daybreak Thursdays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-09": {
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Francis Mercier",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Good Life Fridays",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-12": {
+      "hakkasan": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-12": {
+      "marquee": {
+        "artist": "Murda Beatz",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-19": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-26": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-05": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-04": {
+      "omniaday": {
+        "artist": "OMNIA Dayclub Sunday",
+        "source": "tao-api"
+      },
+      "palmtree": {
+        "artist": "Palm Tree Beach Club Sunday",
+        "source": "tao-api"
+      },
+      "taobeach": {
+        "artist": "TAO Beach Sunday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub",
+        "source": "tao-api"
+      }
+    },
+    "2026-06-25": {
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-06-26": {
+      "omniaday": {
+        "artist": "TWINSICK",
+        "source": "tao-api"
+      }
+    },
+    "2026-06-27": {
+      "omniaday": {
+        "artist": "Fisher",
+        "source": "tao-api"
+      }
+    },
+    "2026-06-28": {
+      "omniaday": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-10": {
+      "omniaday": {
+        "artist": "RØZ",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-11": {
+      "omniaday": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-12": {
+      "omniaday": {
+        "artist": "Elderbrook",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-16": {
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-17": {
+      "omniaday": {
+        "artist": "Vandelux",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-18": {
+      "omniaday": {
+        "artist": "Zedd",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-19": {
+      "omniaday": {
+        "artist": "Elderbrook",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-02": {
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-23": {
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-24": {
+      "omniaday": {
+        "artist": "Lavern",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-25": {
+      "omniaday": {
+        "artist": "Chris Lake",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-26": {
+      "omniaday": {
+        "artist": "TWINSICK",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-03": {
+      "omniaday": {
+        "artist": "Vandelux",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-30": {
+      "omniaday": {
+        "artist": "Daycation Thursdays",
+        "source": "tao-api"
+      }
+    },
+    "2026-07-31": {
+      "omniaday": {
+        "artist": "TWINSICK",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-14": {
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-21": {
+      "marqdayclub": {
+        "artist": "Martin Garrix",
+        "source": "tao-api"
+      }
+    }
+  }
+}
