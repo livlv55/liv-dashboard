@@ -293,6 +293,27 @@ function resolveUrl(url, dateStr) {
   return url.startsWith('wynn:') ? wynnUrl(url.slice(5), dateStr) : url;
 }
 
+// ── Competitor data from scraper ────────────────────────
+let competitorData = {};
+
+async function loadCompetitorData() {
+  try {
+    const res = await fetch('./competitor-data.json?_=' + Date.now());
+    if (res.ok) {
+      const json = await res.json();
+      competitorData = json.events || {};
+      console.log('Competitor data loaded:', Object.keys(competitorData).length, 'dates');
+    }
+  } catch (e) {
+    console.info('No competitor-data.json yet — using manual entry only');
+  }
+}
+
+function getScrapedArtist(eventDate, compSlug) {
+  const day = eventDate.slice(0, 10);
+  return competitorData[day]?.[compSlug]?.artist || null;
+}
+
 // ── State ───────────────────────────────────────────────
 let allEvents = [];
 let venueFilter = 'all';
@@ -338,7 +359,9 @@ async function loadData() {
   setStatus('loading', 'Loading live data…');
   document.getElementById('refreshBtn').classList.add('spinning');
   try {
-    const [livEvts, beachEvts] = await Promise.all([fetchVenue('liv'), fetchVenue('beach')]);
+    const [livEvts, beachEvts] = await Promise.all([
+      fetchVenue('liv'), fetchVenue('beach'), loadCompetitorData(),
+    ]).then(([l, b]) => [l, b]);
     allEvents = [...livEvts, ...beachEvts];
     updateKPIs();
     renderEvents();
@@ -390,9 +413,12 @@ function buildCompPanel(event) {
   const cards = compList.map(c => {
     const intel = loadIntel(event.date, c.slug);
     const href  = resolveUrl(c.url, event.date);
-    const hasA  = intel.artist  ? ' has-value' : '';
-    const hasM  = intel.mPrice  ? ' has-value' : '';
-    const hasF  = intel.fPrice  ? ' has-value' : '';
+    // Use scraped artist if team hasn't manually overridden
+    const artistVal = intel.artist || getScrapedArtist(event.date, c.slug) || '';
+    const isScraped = !intel.artist && !!getScrapedArtist(event.date, c.slug);
+    const hasA  = artistVal       ? ' has-value' : '';
+    const hasM  = intel.mPrice    ? ' has-value' : '';
+    const hasF  = intel.fPrice    ? ' has-value' : '';
     return `<div class="comp-card">
       <div class="comp-card-top">
         <div>
@@ -403,9 +429,9 @@ function buildCompPanel(event) {
       </div>
       <div class="comp-fields">
         <div class="comp-field">
-          <label>Artist</label>
+          <label>Artist${isScraped ? ' <span style="color:var(--green);font-size:9px;letter-spacing:0">●auto</span>' : ''}</label>
           <input type="text" class="${hasA}" placeholder="Enter artist"
-            value="${escHtml(intel.artist||'')}"
+            value="${escHtml(artistVal)}"
             data-date="${escHtml(event.date)}" data-slug="${escHtml(c.slug)}" data-field="artist"
             onclick="event.stopPropagation()" onblur="handleIntelSave(this)">
         </div>
