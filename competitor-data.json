@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T22:31:16.024Z",
+  "updated": "2026-06-25T21:02:11.687Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-11": {
@@ -2321,20 +2321,6 @@
       },
       "palmtree": {
         "artist": "Eric Remy",
-        "source": "tao-api"
-      }
-    },
-    "2026-06-24": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Sintra",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Amiri Paul",
         "source": "tao-api"
       }
     },
