@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T20:32:30.782Z",
+  "updated": "2026-06-30T20:33:11.200Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-11": {
@@ -1002,7 +1002,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Bamboozle",
         "source": "tao-api"
       },
       "marquee": {
@@ -1146,7 +1146,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "DJ Five",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1200,7 +1200,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Dre Sinatra",
         "source": "tao-api"
       },
       "marquee": {
@@ -1344,7 +1344,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Yo Yolie",
         "source": "tao-api"
       },
       "marquee": {
@@ -1374,7 +1374,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Eric D-Lux",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1428,7 +1428,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Fabolous",
         "source": "tao-api"
       },
       "marquee": {
@@ -2381,16 +2381,6 @@
       },
       "marqdayclub": {
         "artist": "Cable",
-        "source": "tao-api"
-      }
-    },
-    "2026-06-29": {
-      "marquee": {
-        "artist": "DJ Sourmilk",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Phoreyz",
         "source": "tao-api"
       }
     }
