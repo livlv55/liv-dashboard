@@ -1,7 +1,89 @@
 {
-  "updated": "2026-06-30T20:33:11.200Z",
+  "updated": "2026-07-01T20:29:52.893Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2026-11-29": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-28": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-27": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-26": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-24": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-22": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-17": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-15": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-12": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Deorro",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-10": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-08": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-05": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-03": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
     "2026-12-11": {
       "omnia": {
         "artist": "TWINSICK",
@@ -1964,12 +2046,6 @@
         "source": "tao-api"
       }
     },
-    "2026-06-30": {
-      "omnia": {
-        "artist": "DJ Pauly D",
-        "source": "tao-api"
-      }
-    },
     "2026-10-28": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -2067,12 +2143,6 @@
       },
       "palmtree": {
         "artist": "Palm Tree Beach Club",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-12": {
-      "hakkasan": {
-        "artist": "Deorro",
         "source": "tao-api"
       }
     },
