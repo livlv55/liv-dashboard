@@ -139,12 +139,67 @@
   .error-msg { padding: 40px; text-align: center; color: var(--red); }
   .auto-refresh-label { font-size: 11px; color: var(--text-muted); }
 
+  /* ── Mobile ─────────────────────────────────────────── */
   @media (max-width: 900px) {
-    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-    .venue-split { grid-template-columns: 1fr; }
-    header { flex-wrap: wrap; gap: 10px; }
-    .comp-grid { grid-template-columns: 1fr 1fr; }
-    .comp-panel { padding-left: 16px; }
+    main { padding: 12px; }
+
+    /* Header: logo on left, refresh icon on right, tabs full-width below */
+    header { flex-wrap: wrap; gap: 8px; padding: 12px 16px; }
+    .header-right { width: 100%; justify-content: space-between; }
+    .venue-tabs { flex: 1; }
+    .venue-tab { flex: 1; padding: 6px 8px; font-size: 12px; text-align: center; }
+    .refresh-btn .refresh-label { display: none; }
+    .refresh-btn { padding: 7px 10px; }
+
+    /* Status bar */
+    .status-bar { padding: 6px 16px; flex-wrap: wrap; }
+    .auto-refresh-label { display: none; }
+
+    /* KPIs: 2 columns, smaller values */
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 14px; }
+    .kpi-card { padding: 14px; }
+    .kpi-value { font-size: 22px; }
+    .kpi-sub { font-size: 11px; }
+
+    /* Venue split: stack */
+    .venue-split { grid-template-columns: 1fr; gap: 10px; margin-bottom: 14px; }
+    .venue-stat-val { font-size: 18px; }
+
+    /* Events header: stack title + filters */
+    .events-header { flex-direction: column; align-items: flex-start; gap: 10px; padding: 12px 14px; }
+    .events-filter { width: 100%; justify-content: flex-start; flex-wrap: wrap; gap: 6px; }
+    .filter-btn { font-size: 11px; padding: 5px 10px; }
+
+    /* Events table: hide Revenue and Top Ticket columns */
+    .events-table th:nth-child(4),
+    .events-table td:nth-child(4),
+    .events-table th:nth-child(6),
+    .events-table td:nth-child(6) { display: none; }
+
+    .events-table th { padding: 8px 12px; font-size: 10px; }
+    .ev-main-row td { padding: 12px 12px; }
+    .ev-toggle-cell { width: 28px; }
+    .event-name { font-size: 13px; }
+    .pacing-bar { max-width: 80px; }
+
+    /* Competitor panel */
+    .comp-panel { padding: 14px 12px 16px 12px; }
+    .comp-grid { grid-template-columns: 1fr; gap: 8px; }
+    .comp-fields { grid-template-columns: 1fr; gap: 6px; }
+  }
+
+  @media (max-width: 480px) {
+    .logo-sub { display: none; }
+    .venue-tab { font-size: 11px; padding: 5px 6px; }
+    .kpi-grid { gap: 8px; }
+    .kpi-card { padding: 12px; }
+    .kpi-value { font-size: 20px; }
+    .kpi-label { font-size: 10px; letter-spacing: 1px; }
+    .event-venue-tag { display: none; }
+    /* Hide 24h Lift too, keep only Event + Tickets */
+    .events-table th:nth-child(5),
+    .events-table td:nth-child(5) { display: none; }
+    .delta-badge { padding: 3px 6px; font-size: 11px; }
   }
 </style>
 </head>
@@ -166,7 +221,7 @@
     </div>
     <button class="refresh-btn" id="refreshBtn" onclick="loadData()">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
-      Refresh
+      <span class="refresh-label">Refresh</span>
     </button>
   </div>
 </header>
