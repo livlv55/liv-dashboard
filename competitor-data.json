@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T20:29:52.893Z",
+  "updated": "2026-07-02T19:01:49.546Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -12,17 +12,37 @@
       "omnia": {
         "artist": "OMNIA Nightclub Saturday",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
       }
     },
     "2026-11-27": {
       "omnia": {
         "artist": "OMNIA Nightclub Friday",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
       }
     },
     "2026-11-26": {
       "omnia": {
         "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
         "source": "tao-api"
       }
     },
@@ -76,6 +96,10 @@
       "omnia": {
         "artist": "OMNIA Nightclub Thursday",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
       }
     },
     "2026-11-03": {
@@ -94,6 +118,10 @@
       "omnia": {
         "artist": "Alesso",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
       }
     },
     "2026-12-01": {
@@ -106,11 +134,23 @@
       "omnia": {
         "artist": "Steve Aoki",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
       }
     },
     "2026-11-07": {
       "omnia": {
         "artist": "TWINSICK",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
         "source": "tao-api"
       },
       "marquee": {
@@ -521,6 +561,14 @@
         "artist": "Alesso",
         "source": "tao-api"
       },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Marquee Dayclub Saturday",
         "source": "tao-api"
@@ -654,6 +702,14 @@
       "omnia": {
         "artist": "Martin Garrix",
         "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
       }
     },
     "2026-10-16": {
@@ -741,6 +797,10 @@
       },
       "hakkasan": {
         "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -873,6 +933,14 @@
     "2026-11-20": {
       "omnia": {
         "artist": "Martin Garrix",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
         "source": "tao-api"
       }
     },
@@ -1842,7 +1910,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Crespo",
+        "artist": "DJ Bamboozle",
         "source": "tao-api"
       }
     },
@@ -2043,6 +2111,46 @@
       },
       "marqdayclub": {
         "artist": "DJ Nova",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-25": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-18": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-11": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-04": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
         "source": "tao-api"
       }
     },
@@ -2272,17 +2380,27 @@
         "source": "tao-api"
       }
     },
-    "2026-07-01": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
+    "2026-11-30": {
       "marquee": {
-        "artist": "Twenty Six",
+        "artist": "Marquee Mondays",
         "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Eric Remy",
+      }
+    },
+    "2026-11-23": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-16": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-11-09": {
+      "marquee": {
+        "artist": "Marquee Mondays",
         "source": "tao-api"
       }
     },
@@ -2440,7 +2558,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Phoreyz",
+        "artist": "D-Miles",
         "source": "tao-api"
       }
     },
