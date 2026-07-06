@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T17:44:44.546Z",
+  "updated": "2026-07-06T20:58:23.793Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -608,7 +608,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "ILLENIUM",
         "source": "tao-api"
       },
       "omniaday": {
@@ -848,7 +848,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "ILLENIUM",
         "source": "tao-api"
       }
     },
@@ -966,7 +966,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Friday",
+        "artist": "Lavern",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1042,7 +1042,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "ILLENIUM",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1366,7 +1366,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Saturday",
+        "artist": "ILLENIUM",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -2003,28 +2003,6 @@
     "2026-07-07": {
       "omnia": {
         "artist": "Jeff Retro",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-05": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Lavern",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "NGHTMRE",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
