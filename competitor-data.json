@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T20:31:50.997Z",
+  "updated": "2026-07-08T18:55:34.802Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -312,7 +312,7 @@
     },
     "2026-09-22": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Mikey Francis",
         "source": "tao-api"
       }
     },
@@ -464,7 +464,7 @@
     },
     "2026-09-19": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Louis the Child",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -520,7 +520,7 @@
     },
     "2026-09-15": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
@@ -976,7 +976,7 @@
     },
     "2026-09-08": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Rob Guson",
         "source": "tao-api"
       }
     },
@@ -1218,7 +1218,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "R3HAB",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1997,12 +1997,6 @@
       },
       "marqdayclub": {
         "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-07": {
-      "omnia": {
-        "artist": "Jeff Retro",
         "source": "tao-api"
       }
     },
