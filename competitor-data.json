@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T18:55:34.802Z",
+  "updated": "2026-07-09T19:13:36.907Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -488,7 +488,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Saturday",
+        "artist": "Lavern",
         "source": "tao-api"
       }
     },
@@ -878,7 +878,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Friday",
+        "artist": "DJ Shift",
         "source": "tao-api"
       }
     },
@@ -970,7 +970,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Friday",
+        "artist": "Yo Yolie",
         "source": "tao-api"
       }
     },
@@ -998,7 +998,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub",
+        "artist": "Moneybagg Yo",
         "source": "tao-api"
       }
     },
@@ -2249,20 +2249,6 @@
       },
       "palmtree": {
         "artist": "DJ Lucky Lou",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-08": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Kidoo",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "D-Miles",
         "source": "tao-api"
       }
     },
