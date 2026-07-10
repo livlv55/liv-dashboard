@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T19:13:36.907Z",
+  "updated": "2026-07-10T19:09:00.748Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -420,7 +420,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "DJ Bonics",
         "source": "tao-api"
       },
       "omniaday": {
@@ -498,7 +498,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Chase B",
         "source": "tao-api"
       },
       "omniaday": {
@@ -858,7 +858,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Boof",
         "source": "tao-api"
       },
       "marquee": {
@@ -1266,7 +1266,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Murda Beatz",
         "source": "tao-api"
       },
       "marquee": {
@@ -1971,32 +1971,6 @@
       },
       "marqdayclub": {
         "artist": "OMNOM",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-09": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Chase B",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
