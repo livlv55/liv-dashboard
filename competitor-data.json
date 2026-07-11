@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T19:09:00.748Z",
+  "updated": "2026-07-11T16:38:19.640Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -1928,7 +1928,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "Deorro",
+        "artist": "LEMA",
         "source": "tao-api"
       },
       "palmtree": {
@@ -1941,36 +1941,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Pauly D",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-10": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ E-Rock",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Ty Dolla Sign",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "RØZ",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ E-Rock",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Jonas Blue",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "OMNOM",
         "source": "tao-api"
       }
     },
