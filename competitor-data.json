@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T17:39:39.880Z",
+  "updated": "2026-07-13T19:03:19.979Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -1889,28 +1889,6 @@
     "2026-07-14": {
       "omnia": {
         "artist": "TYGA",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-12": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "DAYBREAKER: The Sober Morning Dance Party (9am-12pm)",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Murda Beatz",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Bamboozle",
         "source": "tao-api"
       }
     },
