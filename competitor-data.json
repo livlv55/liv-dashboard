@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T19:03:19.979Z",
+  "updated": "2026-07-14T17:48:53.441Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -2313,16 +2313,6 @@
       },
       "marqdayclub": {
         "artist": "Eric Forbes",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-13": {
-      "marquee": {
-        "artist": "OHGEESY",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "D-Miles",
         "source": "tao-api"
       }
     }
