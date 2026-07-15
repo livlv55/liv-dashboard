@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T17:48:53.441Z",
+  "updated": "2026-07-15T18:00:03.838Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -336,7 +336,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Sunday",
+        "artist": "Justin Credible",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -406,7 +406,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Sunday",
+        "artist": "DJ Sourmilk",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -454,7 +454,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Sunday",
+        "artist": "Mike Attack",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1380,7 +1380,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Ne-Yo",
         "source": "tao-api"
       },
       "marquee": {
@@ -1883,12 +1883,6 @@
       },
       "marqdayclub": {
         "artist": "Amiri Paul",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-14": {
-      "omnia": {
-        "artist": "TYGA",
         "source": "tao-api"
       }
     },
