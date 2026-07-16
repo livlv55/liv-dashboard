@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T18:00:03.838Z",
+  "updated": "2026-07-16T17:56:58.153Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -328,7 +328,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Sunday",
+        "artist": "Cedric Gervais",
         "source": "tao-api"
       },
       "palmtree": {
@@ -446,7 +446,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Sunday",
+        "artist": "TWINSICK",
         "source": "tao-api"
       },
       "palmtree": {
@@ -866,7 +866,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Friday",
+        "artist": "Lavern",
         "source": "tao-api"
       },
       "palmtree": {
@@ -1442,7 +1442,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Sunday",
+        "artist": "Mike Posner",
         "source": "tao-api"
       },
       "palmtree": {
@@ -2121,20 +2121,6 @@
       },
       "palmtree": {
         "artist": "Amiri Paul",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-15": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Maxi Meraki",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Lucky Lou",
         "source": "tao-api"
       }
     },
