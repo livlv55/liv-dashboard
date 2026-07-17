@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T17:56:58.153Z",
+  "updated": "2026-07-17T17:44:59.812Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-29": {
@@ -332,7 +332,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "Street Mob Takeover",
         "source": "tao-api"
       },
       "taobeach": {
@@ -766,7 +766,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Chencho Corleone",
         "source": "tao-api"
       },
       "marquee": {
@@ -1860,32 +1860,6 @@
         "source": "tao-api"
       }
     },
-    "2026-07-16": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "4B",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Amiri Paul",
-        "source": "tao-api"
-      }
-    },
     "2026-11-25": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -2074,7 +2048,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Escobar",
+        "artist": "L CORE",
         "source": "tao-api"
       },
       "palmtree": {
