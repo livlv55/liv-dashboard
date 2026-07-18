@@ -1,7 +1,13 @@
 {
-  "updated": "2026-07-17T17:44:59.812Z",
+  "updated": "2026-07-18T17:37:36.633Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2026-12-19": {
+      "omnia": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      }
+    },
     "2026-11-29": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
@@ -530,7 +536,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "P-Lo",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1827,36 +1833,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Pauly D",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-17": {
-      "omnia": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Kaysan",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "DJ Irie",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Vandelux",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Eric D-Lux",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Bijou",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Proppa",
         "source": "tao-api"
       }
     },
