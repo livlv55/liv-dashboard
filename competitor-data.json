@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T19:17:45.650Z",
+  "updated": "2026-07-21T18:51:11.120Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -408,7 +408,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "DJ Stretch",
         "source": "tao-api"
       },
       "taobeach": {
@@ -456,7 +456,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "DJ Shift",
         "source": "tao-api"
       },
       "taobeach": {
@@ -2181,16 +2181,6 @@
       },
       "marqdayclub": {
         "artist": "D-Miles",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-20": {
-      "marquee": {
-        "artist": "Vice",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Eric Forbes",
         "source": "tao-api"
       }
     }
