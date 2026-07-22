@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T18:51:11.120Z",
+  "updated": "2026-07-22T17:57:37.761Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -464,7 +464,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Brooke Evers",
+        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
@@ -1118,7 +1118,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Crespo",
+        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
@@ -1778,12 +1778,6 @@
         "source": "tao-api"
       }
     },
-    "2026-07-21": {
-      "omnia": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      }
-    },
     "2026-11-25": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -2106,7 +2100,7 @@
     },
     "2026-09-14": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "DJ Dynamiq",
         "source": "tao-api"
       },
       "marqdayclub": {
