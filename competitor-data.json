@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:57:37.761Z",
+  "updated": "2026-07-23T18:22:03.576Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -230,6 +230,10 @@
       "omnia": {
         "artist": "OMNIA Nightclub Tuesday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
+        "source": "tao-api"
       }
     },
     "2026-10-11": {
@@ -314,17 +318,29 @@
       "omnia": {
         "artist": "OMNIA Nightclub Tuesday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
+        "source": "tao-api"
       }
     },
     "2026-09-22": {
       "omnia": {
         "artist": "Mikey Francis",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Tuesday",
+        "source": "tao-api"
       }
     },
     "2026-09-29": {
       "omnia": {
         "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Tuesday",
         "source": "tao-api"
       }
     },
@@ -528,6 +544,10 @@
       "omnia": {
         "artist": "Justin Credible",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Tuesday",
+        "source": "tao-api"
       }
     },
     "2026-09-10": {
@@ -568,7 +588,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "OHGEESY",
         "source": "tao-api"
       },
       "marquee": {
@@ -696,7 +716,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "OHGEESY",
         "source": "tao-api"
       },
       "marquee": {
@@ -894,7 +914,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "OHGEESY",
         "source": "tao-api"
       },
       "marquee": {
@@ -983,6 +1003,10 @@
     "2026-09-08": {
       "omnia": {
         "artist": "Rob Guson",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Tuesday",
         "source": "tao-api"
       }
     },
@@ -1758,7 +1782,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Chase B",
+        "artist": "Beatbreaker",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1846,6 +1870,10 @@
       "marquee": {
         "artist": "Lowkey in the Library",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
+        "source": "tao-api"
       }
     },
     "2026-10-07": {
@@ -1859,6 +1887,10 @@
       },
       "palmtree": {
         "artist": "Palm Tree Beach Club",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
@@ -1874,6 +1906,10 @@
       "palmtree": {
         "artist": "Palm Tree Beach Club",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Wednesday",
+        "source": "tao-api"
       }
     },
     "2026-09-23": {
@@ -1887,6 +1923,10 @@
       },
       "palmtree": {
         "artist": "Eric Remy",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Wednesday",
         "source": "tao-api"
       }
     },
@@ -1902,6 +1942,10 @@
       "palmtree": {
         "artist": "DJ Paradice",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Wednesday",
+        "source": "tao-api"
       }
     },
     "2026-09-09": {
@@ -1915,6 +1959,10 @@
       },
       "palmtree": {
         "artist": "DJ Lucky Lou",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Wednesday",
         "source": "tao-api"
       }
     },
@@ -1999,20 +2047,6 @@
       },
       "palmtree": {
         "artist": "Eric Remy",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-22": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "DMTRI",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Amiri Paul",
         "source": "tao-api"
       }
     },
