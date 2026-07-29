@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T16:04:42.201Z",
+  "updated": "2026-07-29T15:48:39.299Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -384,7 +384,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub",
+        "artist": "Brooke Evers",
         "source": "tao-api"
       }
     },
@@ -826,7 +826,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Fisher",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1088,7 +1088,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Beatport Fridays",
+        "artist": "Close Friends Only",
         "source": "tao-api"
       }
     },
@@ -1688,12 +1688,6 @@
         "source": "tao-api"
       }
     },
-    "2026-07-28": {
-      "omnia": {
-        "artist": "Rob Guson",
-        "source": "tao-api"
-      }
-    },
     "2026-11-25": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -1720,7 +1714,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "Rafa Barrios",
         "source": "tao-api"
       }
     },
@@ -2016,7 +2010,7 @@
     },
     "2026-09-21": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Vice",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -2036,7 +2030,7 @@
     },
     "2026-09-07": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "DJ Pauly D",
         "source": "tao-api"
       },
       "marqdayclub": {
