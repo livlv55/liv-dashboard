@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T15:48:39.299Z",
+  "updated": "2026-07-30T15:51:48.153Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -198,7 +198,7 @@
     },
     "2026-10-20": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Mikey Francis",
         "source": "tao-api"
       }
     },
@@ -228,7 +228,7 @@
     },
     "2026-10-13": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Justin Credible",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -316,7 +316,7 @@
     },
     "2026-10-06": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Luis Torres",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -420,7 +420,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Sunday",
+        "artist": "DJ Pauly D",
         "source": "tao-api"
       },
       "palmtree": {
@@ -752,7 +752,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Friday",
+        "artist": "TWINSICK",
         "source": "tao-api"
       }
     },
@@ -848,7 +848,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Friday",
+        "artist": "Vandelux",
         "source": "tao-api"
       },
       "palmtree": {
@@ -922,7 +922,7 @@
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "OMNIA Dayclub Saturday",
+        "artist": "Alesso",
         "source": "tao-api"
       }
     },
@@ -1919,20 +1919,6 @@
       },
       "palmtree": {
         "artist": "D-Miles",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-29": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Chris Garcia",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Eric Remy",
         "source": "tao-api"
       }
     },
