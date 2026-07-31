@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T15:51:48.153Z",
+  "updated": "2026-07-31T16:02:09.506Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1012,7 +1012,7 @@
     },
     "2026-09-06": {
       "omnia": {
-        "artist": "OMNIA Nightclub Sunday",
+        "artist": "DESEO: Latin Sundays w/ OHGEESY",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1134,7 +1134,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "DJ Luian",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1659,32 +1659,6 @@
       },
       "marqdayclub": {
         "artist": "Omarplus",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-30": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Bonics",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Ross",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Lucky Lou",
         "source": "tao-api"
       }
     },
