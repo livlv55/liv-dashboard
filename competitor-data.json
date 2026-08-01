@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T16:02:09.506Z",
+  "updated": "2026-08-01T14:59:33.227Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1629,36 +1629,6 @@
       },
       "marqdayclub": {
         "artist": "Lost Frequencies",
-        "source": "tao-api"
-      }
-    },
-    "2026-07-31": {
-      "omnia": {
-        "artist": "Zedd",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Murda Beatz",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Lavern",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Justin Credible",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Laidback Luke",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Omarplus",
         "source": "tao-api"
       }
     },
