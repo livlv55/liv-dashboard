@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T15:01:40.622Z",
+  "updated": "2026-08-03T16:24:13.267Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1577,28 +1577,6 @@
     "2026-08-04": {
       "omnia": {
         "artist": "Justin Credible",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-02": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Chris Lake",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Vice",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Shift",
         "source": "tao-api"
       }
     },
