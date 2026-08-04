@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T16:24:13.267Z",
+  "updated": "2026-08-04T16:10:48.410Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1953,16 +1953,6 @@
       },
       "marqdayclub": {
         "artist": "Phoreyz",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-03": {
-      "marquee": {
-        "artist": "Chase B",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Cable",
         "source": "tao-api"
       }
     }
