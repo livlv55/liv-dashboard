@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T16:10:48.410Z",
+  "updated": "2026-08-05T16:00:44.079Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -900,7 +900,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Friday",
+        "artist": "Kelland",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1571,12 +1571,6 @@
       },
       "marqdayclub": {
         "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-04": {
-      "omnia": {
-        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
