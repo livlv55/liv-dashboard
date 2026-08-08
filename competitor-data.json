@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T14:51:16.588Z",
+  "updated": "2026-08-08T14:30:33.384Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -126,7 +126,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "DJ Pauly D",
         "source": "tao-api"
       }
     },
@@ -212,7 +212,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "Luis Torres",
         "source": "tao-api"
       }
     },
@@ -254,7 +254,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Sunday",
+        "artist": "Mikey Francis",
         "source": "tao-api"
       },
       "taobeach": {
@@ -668,7 +668,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Boof",
         "source": "tao-api"
       },
       "marquee": {
@@ -682,7 +682,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Chase B",
         "source": "tao-api"
       },
       "marquee": {
@@ -728,7 +728,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Jonas Blue",
         "source": "tao-api"
       }
     },
@@ -752,7 +752,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Five",
         "source": "tao-api"
       },
       "marquee": {
@@ -852,7 +852,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Eric D-Lux",
         "source": "tao-api"
       },
       "marquee": {
@@ -978,7 +978,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "TYGA",
         "source": "tao-api"
       },
       "marquee": {
@@ -1534,36 +1534,6 @@
         "source": "tao-api"
       }
     },
-    "2026-08-07": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Yo Yolie",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Lavern",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Sourmilk",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Vandelux",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "me n ü",
-        "source": "tao-api"
-      }
-    },
     "2026-11-25": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -1620,7 +1590,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "LEMA",
         "source": "tao-api"
       }
     },
@@ -1648,7 +1618,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "LEMA",
         "source": "tao-api"
       },
       "palmtree": {
@@ -1820,7 +1790,7 @@
     },
     "2026-10-26": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
