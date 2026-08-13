@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T14:55:54.366Z",
+  "updated": "2026-08-13T14:56:01.486Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -11,6 +11,10 @@
     "2026-11-29": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
         "source": "tao-api"
       }
     },
@@ -26,6 +30,10 @@
       "marquee": {
         "artist": "Marquee Nightclub Saturday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
+        "source": "tao-api"
       }
     },
     "2026-11-27": {
@@ -40,6 +48,10 @@
       "marquee": {
         "artist": "Marquee Nightclub Friday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2026-11-26": {
@@ -49,6 +61,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -62,6 +78,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2026-11-17": {
@@ -74,6 +94,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2026-11-12": {
@@ -83,6 +107,10 @@
       },
       "hakkasan": {
         "artist": "Deorro",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -96,6 +124,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2026-11-05": {
@@ -105,6 +137,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -128,6 +164,10 @@
       "hakkasan": {
         "artist": "DJ Pauly D",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
       }
     },
     "2026-12-01": {
@@ -148,6 +188,10 @@
       "marquee": {
         "artist": "Marquee Nightclub Friday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2026-11-07": {
@@ -162,11 +206,19 @@
       "marquee": {
         "artist": "Afrojack",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Timmy Trumpet",
+        "source": "tao-api"
       }
     },
     "2026-11-01": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
         "source": "tao-api"
       }
     },
@@ -178,11 +230,19 @@
       "hakkasan": {
         "artist": "Benny Benassi",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
       }
     },
     "2026-10-25": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
         "source": "tao-api"
       }
     },
@@ -193,6 +253,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -214,6 +278,10 @@
       "palmtree": {
         "artist": "Luis Torres",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2026-10-15": {
@@ -231,6 +299,10 @@
       },
       "palmtree": {
         "artist": "Palm Tree Beach Club Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dayclub Thursday",
         "source": "tao-api"
       }
     },
@@ -604,7 +676,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Saturday",
+        "artist": "Levi",
         "source": "tao-api"
       }
     },
@@ -674,6 +746,10 @@
       "marquee": {
         "artist": "Benny Benassi",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2026-10-09": {
@@ -730,6 +806,10 @@
       "marquee": {
         "artist": "Jonas Blue",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Laidback Luke",
+        "source": "tao-api"
       }
     },
     "2026-11-06": {
@@ -743,6 +823,10 @@
       },
       "marquee": {
         "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
         "source": "tao-api"
       }
     },
@@ -765,6 +849,10 @@
       },
       "palmtree": {
         "artist": "Palm Tree Beach Club Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
         "source": "tao-api"
       }
     },
@@ -888,6 +976,10 @@
       "marquee": {
         "artist": "ILLENIUM",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2026-09-25": {
@@ -940,6 +1032,10 @@
       "palmtree": {
         "artist": "Palm Tree Beach Club Saturday",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Bijou",
+        "source": "tao-api"
       }
     },
     "2026-10-03": {
@@ -983,6 +1079,10 @@
       },
       "marquee": {
         "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
         "source": "tao-api"
       }
     },
@@ -1028,7 +1128,7 @@
     },
     "2026-09-06": {
       "omnia": {
-        "artist": "DESEO: Latin Sundays w/ OHGEESY",
+        "artist": "OHGEESY",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1686,20 +1786,6 @@
         "source": "tao-api"
       }
     },
-    "2026-08-12": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "L CORE",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Lucky Lou",
-        "source": "tao-api"
-      }
-    },
     "2026-11-30": {
       "marquee": {
         "artist": "Marquee Mondays",
@@ -1722,11 +1808,19 @@
       "marquee": {
         "artist": "Marquee Mondays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Monday",
+        "source": "tao-api"
       }
     },
     "2026-11-02": {
       "marquee": {
         "artist": "Marquee Mondays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Monday",
         "source": "tao-api"
       }
     },
@@ -1734,11 +1828,19 @@
       "marquee": {
         "artist": "Justin Credible",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Monday",
+        "source": "tao-api"
       }
     },
     "2026-10-19": {
       "marquee": {
         "artist": "Marquee Mondays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Monday",
         "source": "tao-api"
       }
     },
