@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T14:50:03.890Z",
+  "updated": "2026-08-15T14:20:54.067Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1533,36 +1533,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Pauly D",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-14": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Ne-Yo",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "OMNOM",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Kungs",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ E-Rock",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Levi",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Wakyin",
         "source": "tao-api"
       }
     },
