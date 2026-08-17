@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T14:20:56.206Z",
+  "updated": "2026-08-17T14:25:58.870Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-19": {
@@ -1481,28 +1481,6 @@
     "2026-08-18": {
       "omnia": {
         "artist": "Rob Guson",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-16": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Lost Frequencies",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "DJ Snake",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Buza",
         "source": "tao-api"
       }
     },
