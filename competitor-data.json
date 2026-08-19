@@ -1,10 +1,220 @@
 {
-  "updated": "2026-08-18T14:31:42.551Z",
+  "updated": "2026-08-19T14:31:55.399Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2026-12-30": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Wednesday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-29": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-27": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-26": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-25": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-24": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-22": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-20": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-18": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-17": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-15": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-13": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-10": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-08": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-06": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-03": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-31": {
+      "omnia": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "TYGA",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "DJ Pauly D",
+        "source": "tao-api"
+      }
+    },
     "2026-12-19": {
       "omnia": {
         "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -167,6 +377,14 @@
         "artist": "TWINSICK",
         "source": "tao-api"
       },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Marquee Dome Friday",
         "source": "tao-api"
@@ -202,7 +420,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Timmy Trumpet",
+        "artist": "Marquee Nightclub Friday",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -681,6 +899,14 @@
         "artist": "Alesso",
         "source": "tao-api"
       },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Marquee Dome Saturday",
         "source": "tao-api"
@@ -802,7 +1028,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Friday",
+        "artist": "bradeazy",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -815,6 +1041,14 @@
         "artist": "Alesso",
         "source": "tao-api"
       },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Marquee Dome Friday",
         "source": "tao-api"
@@ -823,6 +1057,14 @@
     "2026-12-05": {
       "omnia": {
         "artist": "Zedd",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1498,9 +1740,43 @@
         "source": "tao-api"
       }
     },
-    "2026-08-18": {
-      "omnia": {
-        "artist": "Rob Guson",
+    "2026-12-23": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-16": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-09": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-02": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
         "source": "tao-api"
       }
     },
@@ -1730,6 +2006,30 @@
         "source": "tao-api"
       }
     },
+    "2026-12-28": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-21": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-14": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2026-12-07": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
     "2026-11-30": {
       "marquee": {
         "artist": "Marquee Mondays",
@@ -1865,72 +2165,6 @@
       },
       "marqdayclub": {
         "artist": "D-Miles",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-27": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-26": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-25": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Friday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-24": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-20": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-18": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Friday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-17": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-13": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-10": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-06": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-03": {
-      "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     }
