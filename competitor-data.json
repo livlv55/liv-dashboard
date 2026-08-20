@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T14:31:55.399Z",
+  "updated": "2026-08-20T14:34:30.042Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -1256,7 +1256,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Friday",
+        "artist": "NOTD",
         "source": "tao-api"
       }
     },
@@ -1902,7 +1902,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "DJ CLA",
+        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1989,20 +1989,6 @@
       },
       "palmtree": {
         "artist": "Eric Remy",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-19": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Nico Bernardini",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ ParaDice",
         "source": "tao-api"
       }
     },
