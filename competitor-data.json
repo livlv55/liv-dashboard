@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T14:33:38.478Z",
+  "updated": "2026-08-22T14:19:36.138Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -824,7 +824,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Saturday",
+        "artist": "Don Diablo",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1681,36 +1681,6 @@
       },
       "marqdayclub": {
         "artist": "Louis the Child",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-21": {
-      "omnia": {
-        "artist": "Chris Lake",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Murda Beatz",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Levi",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Vandelux",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Eric D-Lux",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Laidback Luke",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Bontan",
         "source": "tao-api"
       }
     },
