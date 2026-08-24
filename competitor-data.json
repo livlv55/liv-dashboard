@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T14:21:09.573Z",
+  "updated": "2026-08-24T14:39:57.746Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -1629,28 +1629,6 @@
     "2026-08-25": {
       "omnia": {
         "artist": "Mikey Francis",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-23": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "DJ Pauly D",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "R3HAB",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Wiz Khalifa",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Cutswell",
         "source": "tao-api"
       }
     },
