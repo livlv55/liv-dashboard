@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T14:39:57.746Z",
+  "updated": "2026-08-25T14:43:10.534Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -2021,6 +2021,10 @@
         "artist": "DJ Pauly D",
         "source": "tao-api"
       },
+      "taobeach": {
+        "artist": "TAO Beach Monday",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Phoreyz",
         "source": "tao-api"
@@ -2033,16 +2037,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Buza",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-24": {
-      "marquee": {
-        "artist": "Justin Credible",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "D-Miles",
         "source": "tao-api"
       }
     }
