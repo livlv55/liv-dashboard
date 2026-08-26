@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:43:10.534Z",
+  "updated": "2026-08-26T14:42:35.102Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -42,7 +42,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -52,33 +52,33 @@
     },
     "2026-12-25": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Friday",
+        "artist": "CLOSED",
         "source": "tao-api"
       }
     },
     "2026-12-24": {
       "omnia": {
-        "artist": "OMNIA Nightclub Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       }
     },
@@ -270,15 +270,15 @@
     },
     "2026-11-26": {
       "omnia": {
-        "artist": "OMNIA Nightclub Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
+        "artist": "CLOSED",
         "source": "tao-api"
       }
     },
@@ -1623,12 +1623,6 @@
       },
       "marqdayclub": {
         "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-25": {
-      "omnia": {
-        "artist": "Mikey Francis",
         "source": "tao-api"
       }
     },
