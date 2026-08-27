@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T14:42:35.102Z",
+  "updated": "2026-08-27T23:37:11.021Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -572,7 +572,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub",
+        "artist": "DJ Konflikt",
         "source": "tao-api"
       }
     },
@@ -728,7 +728,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Thursday",
+        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
@@ -1238,7 +1238,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Friday",
+        "artist": "DJ Spydatek",
         "source": "tao-api"
       }
     },
@@ -1748,7 +1748,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "Lincoln Jesser",
         "source": "tao-api"
       },
       "palmtree": {
@@ -1864,20 +1864,6 @@
         "source": "tao-api"
       }
     },
-    "2026-08-26": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Melé",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Eric Remy",
-        "source": "tao-api"
-      }
-    },
     "2026-12-28": {
       "marquee": {
         "artist": "Marquee Mondays",
@@ -1922,7 +1908,7 @@
     },
     "2026-11-09": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Emo Nite",
         "source": "tao-api"
       },
       "marqdayclub": {
