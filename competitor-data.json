@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T23:37:11.021Z",
+  "updated": "2026-08-28T23:24:04.401Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -486,7 +486,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Vice",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -528,7 +528,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "DJ Tay James",
         "source": "tao-api"
       },
       "omniaday": {
@@ -612,7 +612,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "DJ Bonics",
+        "artist": "Hakkasan Thursday",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1580,7 +1580,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lavern",
+        "artist": "Luis Torres",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1597,32 +1597,6 @@
       },
       "marqdayclub": {
         "artist": "CID",
-        "source": "tao-api"
-      }
-    },
-    "2026-08-27": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "P-Lo",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Ross",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
