@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T17:37:16.507Z",
+  "updated": "2026-09-02T17:36:41.771Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -1212,24 +1212,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
-        "source": "tao-api"
-      }
-    },
     "2026-10-02": {
       "omnia": {
         "artist": "Tiësto",
@@ -1257,6 +1239,24 @@
       },
       "marqdayclub": {
         "artist": "DJ Spydatek",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "NOTD",
         "source": "tao-api"
       }
     },
@@ -1509,12 +1509,6 @@
       },
       "marqdayclub": {
         "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-01": {
-      "omnia": {
-        "artist": "Luis Torres",
         "source": "tao-api"
       }
     },
@@ -1894,7 +1888,7 @@
         "source": "tao-api"
       },
       "taobeach": {
-        "artist": "TAO Beach Monday",
+        "artist": "Amiri Paul",
         "source": "tao-api"
       },
       "marqdayclub": {
