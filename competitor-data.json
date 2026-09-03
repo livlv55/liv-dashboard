@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T17:36:41.771Z",
+  "updated": "2026-09-03T17:31:53.989Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -672,7 +672,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Street Mob Takeover",
+        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial,  More",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1733,20 +1733,6 @@
       },
       "marqdayclub": {
         "artist": "Marquee Dayclub Wednesday",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-02": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "LEMA",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "D-Miles",
         "source": "tao-api"
       }
     },
