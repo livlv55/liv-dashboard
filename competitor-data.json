@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:31:53.989Z",
+  "updated": "2026-09-04T17:22:36.215Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -100,7 +100,7 @@
     },
     "2026-12-18": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "Steve Aoki",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -284,7 +284,7 @@
     },
     "2026-11-24": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "DJ Shift",
         "source": "tao-api"
       }
     },
@@ -672,7 +672,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial,  More",
+        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamic,  More",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1483,32 +1483,6 @@
       },
       "marqdayclub": {
         "artist": "Close Friends Only",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-03": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
