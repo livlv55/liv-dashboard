@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T17:22:36.215Z",
+  "updated": "2026-09-05T16:33:15.798Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -863,6 +863,10 @@
         "artist": "Justin Credible",
         "source": "tao-api"
       },
+      "omniaday": {
+        "artist": "Sala de Despecho",
+        "source": "tao-api"
+      },
       "marqdayclub": {
         "artist": "Marquee Dayclub Tuesday",
         "source": "tao-api"
@@ -1453,36 +1457,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Pauly D",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-04": {
-      "omnia": {
-        "artist": "Martin Garrix",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "TYGA",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Five",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Cedric Gervais",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Close Friends Only",
         "source": "tao-api"
       }
     },
