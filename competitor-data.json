@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T17:45:27.106Z",
+  "updated": "2026-09-09T17:34:54.015Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -1395,16 +1395,6 @@
       },
       "marqdayclub": {
         "artist": "Yo Yolie",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-08": {
-      "omnia": {
-        "artist": "Rob Guson",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Tuesday",
         "source": "tao-api"
       }
     },
