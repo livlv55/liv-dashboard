@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T17:34:54.015Z",
+  "updated": "2026-09-10T17:29:33.941Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -172,7 +172,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
@@ -344,7 +344,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
@@ -572,7 +572,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "DJ Konflikt",
+        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
@@ -672,7 +672,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamic,  More",
+        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamiq, El Water, Los Gemelos De Sinaloa, Million",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1216,6 +1216,24 @@
         "source": "tao-api"
       }
     },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "NOTD",
+        "source": "tao-api"
+      }
+    },
     "2026-10-02": {
       "omnia": {
         "artist": "Tiësto",
@@ -1243,24 +1261,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Spydatek",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
         "source": "tao-api"
       }
     },
@@ -1597,24 +1597,6 @@
       },
       "palmtree": {
         "artist": "DJ Paradice",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Wednesday",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-09": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "DJ Hills",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Lucky Lou",
         "source": "tao-api"
       },
       "marqdayclub": {
