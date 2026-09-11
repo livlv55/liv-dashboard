@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T17:29:33.941Z",
+  "updated": "2026-09-11T17:32:06.709Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -252,7 +252,7 @@
     },
     "2026-11-27": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "Rob Guson",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -264,7 +264,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Friday",
+        "artist": "DJ CLA",
         "source": "tao-api"
       }
     },
@@ -300,7 +300,7 @@
     },
     "2026-11-17": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Mikey Francis",
         "source": "tao-api"
       }
     },
@@ -330,7 +330,7 @@
     },
     "2026-11-10": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Rob Guson",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -466,7 +466,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
+        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
@@ -602,7 +602,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Saturday",
+        "artist": "TYGA",
         "source": "tao-api"
       }
     },
@@ -869,32 +869,6 @@
       },
       "marqdayclub": {
         "artist": "Marquee Dayclub Tuesday",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-10": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "P-Lo",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Greg Lopez",
         "source": "tao-api"
       }
     },
@@ -1304,7 +1278,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Danny Avila",
         "source": "tao-api"
       },
       "omniaday": {
@@ -1312,7 +1286,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Palm Tree Beach Club Saturday",
+        "artist": "TELYKAST",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1672,7 +1646,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Monday",
+        "artist": "Cable",
         "source": "tao-api"
       }
     },
