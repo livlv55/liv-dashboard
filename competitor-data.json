@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T17:32:06.709Z",
+  "updated": "2026-09-12T16:46:19.987Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -672,7 +672,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamiq, El Water, Los Gemelos De Sinaloa, Million",
+        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamiq, El Water, Los Gemelos De Sinaloa, Million, Moises",
         "source": "tao-api"
       },
       "taobeach": {
@@ -1190,24 +1190,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
-        "source": "tao-api"
-      }
-    },
     "2026-10-02": {
       "omnia": {
         "artist": "Tiësto",
@@ -1235,6 +1217,24 @@
       },
       "marqdayclub": {
         "artist": "DJ Spydatek",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "NOTD",
         "source": "tao-api"
       }
     },
@@ -1339,36 +1339,6 @@
       },
       "marqdayclub": {
         "artist": "Marquee Dome Friday",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-11": {
-      "omnia": {
-        "artist": "Martin Garrix",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "RØZ",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Sourmilk",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Lavern",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Yo Yolie",
         "source": "tao-api"
       }
     },
