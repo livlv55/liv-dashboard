@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T17:16:55.878Z",
+  "updated": "2026-09-14T19:02:11.100Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -662,28 +662,6 @@
         "source": "tao-api"
       }
     },
-    "2026-09-13": {
-      "omnia": {
-        "artist": "Farruko",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Cedric Gervais",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Street Mob Takeover ft. Chuyin, Clave Especial, Dynamiq, El Water, Los Gemelos De Sinaloa, Million, Moises",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Justin Credible",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Beatbreaker",
-        "source": "tao-api"
-      }
-    },
     "2026-10-04": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
@@ -1160,6 +1138,24 @@
         "source": "tao-api"
       }
     },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "NOTD",
+        "source": "tao-api"
+      }
+    },
     "2026-10-02": {
       "omnia": {
         "artist": "Tiësto",
@@ -1187,24 +1183,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Spydatek",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
         "source": "tao-api"
       }
     },
