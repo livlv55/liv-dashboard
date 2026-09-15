@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T19:02:11.100Z",
+  "updated": "2026-09-15T17:56:25.960Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -202,6 +202,10 @@
       "marquee": {
         "artist": "DJ Pauly D",
         "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "OMNIA Skybar",
+        "source": "tao-api"
       }
     },
     "2026-12-19": {
@@ -238,7 +242,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "DJ Bonics",
         "source": "tao-api"
       },
       "marquee": {
@@ -434,7 +438,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "TYGA",
         "source": "tao-api"
       },
       "marquee": {
@@ -582,7 +586,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Moneybagg Yo",
         "source": "tao-api"
       },
       "marquee": {
@@ -1052,7 +1056,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "Dre Sinatra",
         "source": "tao-api"
       },
       "marquee": {
@@ -1138,24 +1142,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
-        "source": "tao-api"
-      }
-    },
     "2026-10-02": {
       "omnia": {
         "artist": "Tiësto",
@@ -1183,6 +1169,24 @@
       },
       "marqdayclub": {
         "artist": "DJ Spydatek",
+        "source": "tao-api"
+      }
+    },
+    "2026-10-30": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "BigXthaPlug",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "ILLENIUM",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "NOTD",
         "source": "tao-api"
       }
     },
@@ -1615,16 +1619,6 @@
       },
       "marqdayclub": {
         "artist": "Eric Forbes",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-14": {
-      "marquee": {
-        "artist": "DJ Dynamiq",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Cable",
         "source": "tao-api"
       }
     }
