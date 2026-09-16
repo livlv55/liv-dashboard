@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T17:56:25.960Z",
+  "updated": "2026-09-16T17:58:49.069Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -837,20 +837,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Lucky Lou",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-15": {
-      "omnia": {
-        "artist": "Justin Credible",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Sala de Despecho",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Tuesday",
         "source": "tao-api"
       }
     },
