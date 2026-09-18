@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T17:55:57.578Z",
+  "updated": "2026-09-18T17:30:08.736Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -298,7 +298,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Crespo",
         "source": "tao-api"
       }
     },
@@ -314,7 +314,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "DJ Konflikt",
         "source": "tao-api"
       }
     },
@@ -368,7 +368,7 @@
     },
     "2026-11-03": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Steve Aoki",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -442,11 +442,11 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Afrojack",
+        "artist": "Marquee Nightclub Saturday",
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Timmy Trumpet",
+        "artist": "Afrojack",
         "source": "tao-api"
       }
     },
@@ -814,32 +814,6 @@
         "source": "tao-api"
       }
     },
-    "2026-09-17": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Chase B",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Lucky Lou",
-        "source": "tao-api"
-      }
-    },
     "2026-12-12": {
       "omnia": {
         "artist": "Alesso",
@@ -1046,7 +1020,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "Timmy Trumpet",
         "source": "tao-api"
       },
       "marqdayclub": {
