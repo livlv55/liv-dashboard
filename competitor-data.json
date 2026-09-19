@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T17:30:08.736Z",
+  "updated": "2026-09-19T17:00:20.341Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -246,7 +246,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "LEMA",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -264,7 +264,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "Greg Lopez",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -434,7 +434,7 @@
     },
     "2026-11-07": {
       "omnia": {
-        "artist": "TWINSICK",
+        "artist": "Chris Lake",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -442,7 +442,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "TWINSICK",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1054,36 +1054,6 @@
         "source": "tao-api"
       }
     },
-    "2026-09-18": {
-      "omnia": {
-        "artist": "Alesso",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "TYGA",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Kyle Cooke",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Cedric Gervais",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ E-Rock",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "nimino",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Mike Attack",
-        "source": "tao-api"
-      }
-    },
     "2026-11-21": {
       "omnia": {
         "artist": "Tiësto",
@@ -1334,7 +1304,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "LEMA",
+        "artist": "Assadriz",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1496,7 +1466,7 @@
     },
     "2026-11-02": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Vice",
         "source": "tao-api"
       },
       "marqdayclub": {
