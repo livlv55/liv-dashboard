@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T17:57:34.884Z",
+  "updated": "2026-09-23T18:15:43.038Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -232,7 +232,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Brooke Evers",
         "source": "tao-api"
       }
     },
@@ -250,7 +250,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
+        "artist": "Mike Attack",
         "source": "tao-api"
       }
     },
@@ -646,16 +646,6 @@
         "source": "tao-api"
       }
     },
-    "2026-09-22": {
-      "omnia": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Tuesday",
-        "source": "tao-api"
-      }
-    },
     "2026-09-29": {
       "omnia": {
         "artist": "Steve Aoki",
@@ -790,7 +780,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "CID",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -972,7 +962,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Friday",
+        "artist": "DJ Precise",
         "source": "tao-api"
       }
     },
@@ -1208,7 +1198,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "LEMA",
         "source": "tao-api"
       }
     },
@@ -1228,7 +1218,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "LEMA",
         "source": "tao-api"
       }
     },
@@ -1392,13 +1382,13 @@
     },
     "2026-11-23": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "P3SO",
         "source": "tao-api"
       }
     },
     "2026-11-16": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "DJ Shift",
         "source": "tao-api"
       }
     },
