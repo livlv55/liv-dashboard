@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T18:12:57.834Z",
+  "updated": "2026-09-25T18:13:44.729Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -723,32 +723,6 @@
       },
       "marqdayclub": {
         "artist": "AL TAMAR",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-24": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Bonics",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Ross",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
         "source": "tao-api"
       }
     },
