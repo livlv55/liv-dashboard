@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T20:23:08.971Z",
+  "updated": "2026-09-29T19:06:50.212Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -38,7 +38,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Mike Attack",
         "source": "tao-api"
       },
       "marquee": {
@@ -104,7 +104,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ E-Rock",
         "source": "tao-api"
       },
       "marquee": {
@@ -214,7 +214,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Nitrane",
         "source": "tao-api"
       },
       "marquee": {
@@ -710,7 +710,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Justin Credible",
         "source": "tao-api"
       },
       "marquee": {
@@ -822,7 +822,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Bonics",
         "source": "tao-api"
       },
       "marquee": {
@@ -840,7 +840,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Saturday",
+        "artist": "Chase B",
         "source": "tao-api"
       },
       "marquee": {
@@ -1323,16 +1323,6 @@
       },
       "marqdayclub": {
         "artist": "CLOSED FOR DOME INSTALLATION",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-28": {
-      "marquee": {
-        "artist": "Eric D-Lux",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "D-Miles",
         "source": "tao-api"
       }
     }
