@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T19:06:50.212Z",
+  "updated": "2026-09-30T18:49:53.021Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-30": {
@@ -518,7 +518,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Luis Torres",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -568,7 +568,7 @@
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Mikey Francis",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "taobeach": {
@@ -646,27 +646,17 @@
         "source": "tao-api"
       }
     },
-    "2026-09-29": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Tuesday",
-        "source": "tao-api"
-      }
-    },
     "2026-10-04": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
       },
       "omniaday": {
-        "artist": "LEMA",
+        "artist": "Bijou",
         "source": "tao-api"
       },
       "palmtree": {
-        "artist": "Bijou",
+        "artist": "CLOSED",
         "source": "tao-api"
       },
       "taobeach": {
