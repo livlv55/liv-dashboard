@@ -1,7 +1,201 @@
 {
-  "updated": "2026-09-30T18:49:53.021Z",
+  "updated": "2026-10-01T19:16:52.256Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2027-01-31": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-30": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-29": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-28": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-26": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-24": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-23": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-22": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-21": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-19": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-17": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-16": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-15": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-14": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-12": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-10": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-09": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-08": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-07": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Thursday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-05": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Tuesday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-03": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-02": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-01": {
+      "omnia": {
+        "artist": "OMNIA Nightclub Friday",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      }
+    },
     "2026-12-30": {
       "omnia": {
         "artist": "OMNIA Nightclub Wednesday",
@@ -152,7 +346,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Eric D-Lux",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -382,7 +576,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ Five",
         "source": "tao-api"
       },
       "marquee": {
@@ -1044,6 +1238,30 @@
         "source": "tao-api"
       }
     },
+    "2027-01-27": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-20": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-13": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-06": {
+      "hakkasan": {
+        "artist": "DJ Franzen",
+        "source": "tao-api"
+      }
+    },
     "2026-12-23": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -1193,24 +1411,6 @@
       },
       "marqdayclub": {
         "artist": "CLOSED FOR DOME INSTALLATION",
-        "source": "tao-api"
-      }
-    },
-    "2026-09-30": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "L CORE",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "CLOSED FOR PRIVATE EVENT",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Wednesday",
         "source": "tao-api"
       }
     },
