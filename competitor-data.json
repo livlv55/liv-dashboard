@@ -1,10 +1,14 @@
 {
-  "updated": "2026-10-01T19:16:52.256Z",
+  "updated": "2026-10-02T18:58:58.021Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2027-01-31": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
         "source": "tao-api"
       }
     },
@@ -16,6 +20,14 @@
       "hakkasan": {
         "artist": "Hakkasan Saturday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
+        "source": "tao-api"
       }
     },
     "2027-01-29": {
@@ -26,6 +38,14 @@
       "hakkasan": {
         "artist": "Hakkasan Friday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2027-01-28": {
@@ -35,6 +55,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -48,6 +72,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2027-01-23": {
@@ -57,6 +85,14 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
         "source": "tao-api"
       }
     },
@@ -68,6 +104,14 @@
       "hakkasan": {
         "artist": "Hakkasan Friday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2027-01-21": {
@@ -77,6 +121,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -90,6 +138,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2027-01-16": {
@@ -99,6 +151,14 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
         "source": "tao-api"
       }
     },
@@ -110,6 +170,14 @@
       "hakkasan": {
         "artist": "Hakkasan Friday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2027-01-14": {
@@ -119,6 +187,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -132,6 +204,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2027-01-09": {
@@ -141,6 +217,14 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Saturday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
         "source": "tao-api"
       }
     },
@@ -152,6 +236,14 @@
       "hakkasan": {
         "artist": "Hakkasan Friday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
+        "source": "tao-api"
       }
     },
     "2027-01-07": {
@@ -161,6 +253,10 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Thursday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
@@ -174,6 +270,10 @@
       "omnia": {
         "artist": "DESEO: Latin Sundays",
         "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Sunday",
+        "source": "tao-api"
       }
     },
     "2027-01-02": {
@@ -184,6 +284,14 @@
       "hakkasan": {
         "artist": "Hakkasan Saturday",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Saturday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Saturday",
+        "source": "tao-api"
       }
     },
     "2027-01-01": {
@@ -193,6 +301,14 @@
       },
       "hakkasan": {
         "artist": "Hakkasan Friday",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Marquee Nightclub Friday",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Marquee Dome Friday",
         "source": "tao-api"
       }
     },
@@ -862,32 +978,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-01": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Murda Beatz",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
     "2026-12-12": {
       "omnia": {
         "artist": "Alesso",
@@ -1242,11 +1332,19 @@
       "hakkasan": {
         "artist": "DJ Franzen",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
       }
     },
     "2027-01-20": {
       "hakkasan": {
         "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
         "source": "tao-api"
       }
     },
@@ -1254,11 +1352,19 @@
       "hakkasan": {
         "artist": "DJ Franzen",
         "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
+        "source": "tao-api"
       }
     },
     "2027-01-06": {
       "hakkasan": {
         "artist": "DJ Franzen",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Lowkey in the Library",
         "source": "tao-api"
       }
     },
@@ -1278,7 +1384,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "Escobar",
         "source": "tao-api"
       }
     },
@@ -1288,7 +1394,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "L CORE",
         "source": "tao-api"
       }
     },
@@ -1342,7 +1448,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Assadriz",
+        "artist": "The Assadriz",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1414,6 +1520,36 @@
         "source": "tao-api"
       }
     },
+    "2027-02-01": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-25": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-18": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-11": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
+    "2027-01-04": {
+      "marquee": {
+        "artist": "Marquee Mondays",
+        "source": "tao-api"
+      }
+    },
     "2026-12-28": {
       "marquee": {
         "artist": "Marquee Mondays",
@@ -1428,7 +1564,7 @@
     },
     "2026-12-14": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
