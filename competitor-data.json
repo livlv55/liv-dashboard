@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T17:47:13.346Z",
+  "updated": "2026-10-04T17:58:58.468Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2027-01-31": {
@@ -1247,36 +1247,6 @@
       },
       "marqdayclub": {
         "artist": "Bijou",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-03": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Wiz Khalifa",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Cedric Gervais",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Chris Lake",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "Alesso",
-        "source": "tao-api"
-      },
-      "taobeach": {
-        "artist": "Louis the Child",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "TWINSICK",
         "source": "tao-api"
       }
     },
