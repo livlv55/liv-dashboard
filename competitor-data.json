@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T19:18:30.073Z",
+  "updated": "2026-10-07T19:44:41.555Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2027-01-31": {
@@ -338,7 +338,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Jerzy",
         "source": "tao-api"
       }
     },
@@ -356,7 +356,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
+        "artist": "Mike Attack",
         "source": "tao-api"
       }
     },
@@ -404,7 +404,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Crespo",
         "source": "tao-api"
       }
     },
@@ -418,7 +418,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "LEMA",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -432,7 +432,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Dre Sinatra",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -452,7 +452,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "DJ Puffy",
         "source": "tao-api"
       }
     },
@@ -528,7 +528,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Mike Attack",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -734,7 +734,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "Fabolous",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -854,7 +854,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dayclub Thursday",
+        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
@@ -939,16 +939,6 @@
       },
       "taobeach": {
         "artist": "TAO Beach Daybreak Thursdays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dayclub Thursday",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-06": {
-      "omnia": {
-        "artist": "Luis Torres",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1292,7 +1282,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "DMTRI",
         "source": "tao-api"
       }
     },
@@ -1470,13 +1460,13 @@
     },
     "2026-12-28": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "DJ Konflikt",
         "source": "tao-api"
       }
     },
     "2026-12-21": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "AL TAMAR",
         "source": "tao-api"
       }
     },
