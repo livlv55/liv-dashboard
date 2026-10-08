@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-07T19:44:41.555Z",
+  "updated": "2026-10-08T19:40:15.484Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2026-10-25": {
+      "omnia": {
+        "artist": "DESEO: Latin Sundays",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "DJ Shift",
+        "source": "tao-api"
+      }
+    },
     "2027-01-31": {
       "omnia": {
         "artist": "DESEO: Latin Sundays",
@@ -339,24 +349,6 @@
       },
       "marqdayclub": {
         "artist": "Jerzy",
-        "source": "tao-api"
-      }
-    },
-    "2026-12-26": {
-      "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Mike Attack",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "CLOSED",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Mike Attack",
         "source": "tao-api"
       }
     },
@@ -756,7 +748,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Afrojack",
+        "artist": "Marquee Dome Saturday",
         "source": "tao-api"
       }
     },
@@ -781,16 +773,6 @@
       },
       "marqdayclub": {
         "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-25": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Shift",
         "source": "tao-api"
       }
     },
@@ -1276,6 +1258,20 @@
         "source": "tao-api"
       }
     },
+    "2026-12-26": {
+      "hakkasan": {
+        "artist": "Mike Attack",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "CLOSED",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Mike Attack",
+        "source": "tao-api"
+      }
+    },
     "2026-12-23": {
       "hakkasan": {
         "artist": "DJ Franzen",
@@ -1403,24 +1399,6 @@
       },
       "palmtree": {
         "artist": "DJ Lucky Lou",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-07": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "LEMA",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "D-Miles",
         "source": "tao-api"
       },
       "marqdayclub": {
