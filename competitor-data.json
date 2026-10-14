@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T20:05:28.321Z",
+  "updated": "2026-10-14T18:18:06.135Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -851,16 +851,6 @@
       },
       "palmtree": {
         "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-13": {
-      "omnia": {
-        "artist": "Justin Credible",
         "source": "tao-api"
       },
       "marqdayclub": {
