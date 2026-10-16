@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T18:00:27.207Z",
+  "updated": "2026-10-16T17:48:40.683Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -542,7 +542,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
+        "artist": "Vice",
         "source": "tao-api"
       }
     },
@@ -706,7 +706,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "Beatbreaker",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -814,7 +814,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Tuesday",
+        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
@@ -833,28 +833,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Spider",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-15": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Tay James",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Daycation Thursdays",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ Mondo",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
@@ -968,7 +946,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Brooke Evers",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1114,7 +1092,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Friday",
+        "artist": "Elderbrook",
         "source": "tao-api"
       }
     },
@@ -1270,7 +1248,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Wednesday",
+        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
@@ -1324,7 +1302,7 @@
     },
     "2026-12-07": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Vice",
         "source": "tao-api"
       }
     },
@@ -1382,7 +1360,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "D-Miles",
+        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     }
