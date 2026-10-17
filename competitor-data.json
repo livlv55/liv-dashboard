@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T17:48:40.683Z",
+  "updated": "2026-10-17T16:50:50.331Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -380,7 +380,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "CLOSED",
+        "artist": "LVP Party 2026 feat TBA",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -987,32 +987,6 @@
       },
       "marqdayclub": {
         "artist": "Leroy Fish",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-16": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Five",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "DJ E-Rock",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "15grams",
         "source": "tao-api"
       }
     },
