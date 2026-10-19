@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T17:04:40.806Z",
+  "updated": "2026-10-19T19:39:41.235Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -815,24 +815,6 @@
       },
       "marqdayclub": {
         "artist": "CLOSED FOR DOME INSTALLATION",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-18": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "omniaday": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      },
-      "palmtree": {
-        "artist": "CLOSED",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Spider",
         "source": "tao-api"
       }
     },
