@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T19:39:41.235Z",
+  "updated": "2026-10-20T18:21:07.277Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -1281,16 +1281,6 @@
       },
       "marqdayclub": {
         "artist": "Cable",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-19": {
-      "marquee": {
-        "artist": "Eric D-Lux",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     }
