@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:21:07.277Z",
+  "updated": "2026-10-21T18:23:49.134Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -805,16 +805,6 @@
       },
       "marqdayclub": {
         "artist": "Greg Lopez",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-20": {
-      "omnia": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
