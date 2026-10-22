@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T18:23:49.134Z",
+  "updated": "2026-10-22T18:18:32.782Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -380,7 +380,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "LVP Party 2026 feat TBA",
+        "artist": "LVP Party 2026",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -1155,20 +1155,6 @@
       },
       "marqdayclub": {
         "artist": "Marquee Dome Wednesday",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-21": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "LEMA",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR DOME INSTALLATION",
         "source": "tao-api"
       }
     },
