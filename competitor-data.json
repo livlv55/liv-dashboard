@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T18:05:37.124Z",
+  "updated": "2026-10-24T17:12:47.541Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -858,24 +858,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-23": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Boof",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Benny Benassi",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ CLA",
-        "source": "tao-api"
-      }
-    },
     "2026-12-04": {
       "omnia": {
         "artist": "Alesso",
@@ -959,6 +941,10 @@
       },
       "marquee": {
         "artist": "Fisher",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "Roc Nation  Tao Group Hospitality Present Race Weekend, Hosted by JAŸ-Z",
         "source": "tao-api"
       },
       "marqdayclub": {
