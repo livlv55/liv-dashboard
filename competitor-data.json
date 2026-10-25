@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T17:12:47.541Z",
+  "updated": "2026-10-25T17:24:52.306Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -891,24 +891,6 @@
       },
       "marqdayclub": {
         "artist": "Murda Beatz",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-24": {
-      "omnia": {
-        "artist": "Zedd",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "OHGEESY",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Jonas Blue",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Laidback Luke",
         "source": "tao-api"
       }
     },
