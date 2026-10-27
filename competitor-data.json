@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T19:44:51.018Z",
+  "updated": "2026-10-27T19:13:39.204Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -915,10 +915,6 @@
         "artist": "Fisher",
         "source": "tao-api"
       },
-      "omniaday": {
-        "artist": "Roc Nation  Tao Group Hospitality Present Race Weekend, Hosted by JAŸ-Z",
-        "source": "tao-api"
-      },
       "marqdayclub": {
         "artist": "Martin Garrix",
         "source": "tao-api"
@@ -1191,16 +1187,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Buza",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-26": {
-      "marquee": {
-        "artist": "Justin Credible",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Cable",
         "source": "tao-api"
       }
     }
