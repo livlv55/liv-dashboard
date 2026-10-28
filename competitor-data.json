@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T19:13:39.204Z",
+  "updated": "2026-10-28T19:20:04.882Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-12-26": {
@@ -817,16 +817,6 @@
       },
       "marqdayclub": {
         "artist": "Levi",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-27": {
-      "omnia": {
-        "artist": "Alesso",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Tuesday",
         "source": "tao-api"
       }
     },
