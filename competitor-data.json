@@ -1,7 +1,29 @@
 {
-  "updated": "2026-10-29T19:25:00.612Z",
+  "updated": "2026-10-30T18:59:25.826Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
+    "2026-11-21": {
+      "omnia": {
+        "artist": "Tiësto",
+        "source": "tao-api"
+      },
+      "hakkasan": {
+        "artist": "Steve Aoki",
+        "source": "tao-api"
+      },
+      "marquee": {
+        "artist": "Fisher",
+        "source": "tao-api"
+      },
+      "omniaday": {
+        "artist": "JAŸ-Z",
+        "source": "tao-api"
+      },
+      "marqdayclub": {
+        "artist": "Martin Garrix",
+        "source": "tao-api"
+      }
+    },
     "2026-12-26": {
       "omnia": {
         "artist": "LVP Party 2026 feat MASHBIT",
@@ -770,20 +792,6 @@
         "source": "tao-api"
       }
     },
-    "2026-10-29": {
-      "omnia": {
-        "artist": "Thursdays on the Terrace",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Benny Benassi",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Stephi K",
-        "source": "tao-api"
-      }
-    },
     "2026-12-12": {
       "omnia": {
         "artist": "Alesso",
@@ -889,24 +897,6 @@
       },
       "marqdayclub": {
         "artist": "Leroy Fish",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-21": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Fisher",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Martin Garrix",
         "source": "tao-api"
       }
     },
