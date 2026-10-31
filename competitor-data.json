@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:59:25.826Z",
+  "updated": "2026-10-31T18:11:45.842Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -897,24 +897,6 @@
       },
       "marqdayclub": {
         "artist": "Leroy Fish",
-        "source": "tao-api"
-      }
-    },
-    "2026-10-30": {
-      "omnia": {
-        "artist": "Tiësto",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "BigXthaPlug",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "ILLENIUM",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "NOTD",
         "source": "tao-api"
       }
     },
