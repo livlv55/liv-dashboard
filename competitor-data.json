@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T18:44:45.710Z",
+  "updated": "2026-11-02T22:35:45.623Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -779,16 +779,6 @@
       },
       "marqdayclub": {
         "artist": "Luis Torres",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-01": {
-      "omnia": {
-        "artist": "Deseo: Latin Sundays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Nina Sky",
         "source": "tao-api"
       }
     },
