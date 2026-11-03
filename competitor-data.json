@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T22:35:45.623Z",
+  "updated": "2026-11-03T20:24:49.867Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -494,7 +494,7 @@
     },
     "2026-12-08": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Eight Seconds to Glory Hosted by Rocker Steiner",
         "source": "tao-api"
       }
     },
@@ -838,7 +838,7 @@
     },
     "2026-12-05": {
       "omnia": {
-        "artist": "Zedd",
+        "artist": "OMNIA Nightclub Saturday",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -1097,16 +1097,6 @@
       },
       "marqdayclub": {
         "artist": "CLOSED FOR PRIVATE EVENT",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-02": {
-      "marquee": {
-        "artist": "Vice",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "DJ Buza",
         "source": "tao-api"
       }
     }
