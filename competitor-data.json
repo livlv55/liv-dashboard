@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T20:24:49.867Z",
+  "updated": "2026-11-04T20:39:50.521Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -26,7 +26,7 @@
     },
     "2026-12-26": {
       "omnia": {
-        "artist": "LVP Party 2026 feat MASHBIT",
+        "artist": "LVP Party 2026 feat SIJAL  MASHBIT",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -668,10 +668,6 @@
       "omnia": {
         "artist": "Rob Guson",
         "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Tuesday",
-        "source": "tao-api"
       }
     },
     "2026-11-08": {
@@ -695,16 +691,6 @@
       },
       "marqdayclub": {
         "artist": "Marquee Dome Thursday",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-03": {
-      "omnia": {
-        "artist": "Steve Aoki",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Tuesday",
         "source": "tao-api"
       }
     },
@@ -997,10 +983,6 @@
       },
       "marquee": {
         "artist": "Rafa Barrios",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Wednesday",
         "source": "tao-api"
       }
     },
