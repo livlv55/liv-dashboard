@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T20:39:50.521Z",
+  "updated": "2026-11-05T20:55:53.919Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -54,7 +54,7 @@
     },
     "2027-01-30": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Steve Aoki",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -72,7 +72,7 @@
     },
     "2027-01-29": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "Zedd",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -120,7 +120,7 @@
     },
     "2027-01-23": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Martin Garrix w/ Justin Mylo",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -128,7 +128,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Deorro",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -138,7 +138,7 @@
     },
     "2027-01-22": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "Fisher",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -146,7 +146,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "Louis the Child",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -186,7 +186,7 @@
     },
     "2027-01-16": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Deorro",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -194,7 +194,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "me n ü",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -204,7 +204,7 @@
     },
     "2027-01-15": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "DJ Pauly D",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -252,7 +252,7 @@
     },
     "2027-01-09": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Steve Aoki",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -260,7 +260,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Louis the Child",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -270,7 +270,7 @@
     },
     "2027-01-08": {
       "omnia": {
-        "artist": "OMNIA Nightclub Friday",
+        "artist": "Chris Lake",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -278,7 +278,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "DJ Pauly D",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -986,20 +986,6 @@
         "source": "tao-api"
       }
     },
-    "2026-11-04": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "The Assadriz",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Wednesday",
-        "source": "tao-api"
-      }
-    },
     "2027-02-01": {
       "marquee": {
         "artist": "Marquee Mondays",
@@ -1008,7 +994,7 @@
     },
     "2027-01-25": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Mustard",
         "source": "tao-api"
       }
     },
