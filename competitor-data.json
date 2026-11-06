@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T20:55:53.919Z",
+  "updated": "2026-11-06T20:15:13.651Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -120,7 +120,7 @@
     },
     "2027-01-23": {
       "omnia": {
-        "artist": "Martin Garrix w/ Justin Mylo",
+        "artist": "Martin Garrix",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -677,20 +677,6 @@
       },
       "marqdayclub": {
         "artist": "Party Pupils",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-05": {
-      "omnia": {
-        "artist": "OMNIA Nightclub Thursday",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Chase B",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
         "source": "tao-api"
       }
     },
