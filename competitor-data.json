@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T20:15:13.651Z",
+  "updated": "2026-11-07T18:28:26.514Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -660,7 +660,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
+        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       }
     },
@@ -823,24 +823,6 @@
       },
       "marqdayclub": {
         "artist": "Murda Beatz",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-06": {
-      "omnia": {
-        "artist": "Martin Garrix",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Dre Sinatra",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Timmy Trumpet",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Leroy Fish",
         "source": "tao-api"
       }
     },
