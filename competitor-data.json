@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T18:28:26.514Z",
+  "updated": "2026-11-08T18:39:45.926Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -733,24 +733,6 @@
       },
       "marqdayclub": {
         "artist": "Kuta",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-07": {
-      "omnia": {
-        "artist": "Chris Lake",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "TYGA",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "TWINSICK",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Luis Torres",
         "source": "tao-api"
       }
     },
