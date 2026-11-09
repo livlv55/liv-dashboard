@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T18:39:45.926Z",
+  "updated": "2026-11-09T23:16:52.445Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -94,7 +94,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "DJ Five",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -226,7 +226,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Thursday",
+        "artist": "Eric D-Lux",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -340,7 +340,7 @@
         "source": "tao-api"
       },
       "hakkasan": {
-        "artist": "Hakkasan Friday",
+        "artist": "DJ E-Rock",
         "source": "tao-api"
       },
       "marquee": {
@@ -667,16 +667,6 @@
     "2026-11-10": {
       "omnia": {
         "artist": "Rob Guson",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-08": {
-      "omnia": {
-        "artist": "DESEO: Latin Sundays",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Party Pupils",
         "source": "tao-api"
       }
     },
