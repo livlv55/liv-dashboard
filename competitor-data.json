@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T23:16:52.445Z",
+  "updated": "2026-11-10T20:42:13.649Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -236,7 +236,7 @@
     },
     "2027-01-12": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Rob Guson",
         "source": "tao-api"
       }
     },
@@ -302,7 +302,7 @@
     },
     "2027-01-05": {
       "omnia": {
-        "artist": "OMNIA Nightclub Tuesday",
+        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
@@ -684,7 +684,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Bimbo Jones",
+        "artist": "Trick Babies",
         "source": "tao-api"
       }
     },
@@ -776,7 +776,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Trick Babies",
+        "artist": "Bimbo Jones",
         "source": "tao-api"
       }
     },
@@ -995,16 +995,6 @@
     "2026-11-16": {
       "marquee": {
         "artist": "DJ Shift",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-09": {
-      "marquee": {
-        "artist": "Emo Nite",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       }
     }
