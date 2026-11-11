@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T20:42:13.649Z",
+  "updated": "2026-11-11T21:03:26.191Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -362,7 +362,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "SEBS",
         "source": "tao-api"
       }
     },
@@ -570,7 +570,7 @@
     },
     "2026-11-28": {
       "omnia": {
-        "artist": "OMNIA Nightclub Saturday",
+        "artist": "Murda Beatz",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -664,12 +664,6 @@
         "source": "tao-api"
       }
     },
-    "2026-11-10": {
-      "omnia": {
-        "artist": "Rob Guson",
-        "source": "tao-api"
-      }
-    },
     "2026-12-11": {
       "omnia": {
         "artist": "TWINSICK",
@@ -698,7 +692,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Thursday",
+        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       }
     },
@@ -772,7 +766,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "13lackbeard",
         "source": "tao-api"
       },
       "marqdayclub": {
