@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T21:03:26.191Z",
+  "updated": "2026-11-12T21:18:24.350Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -907,16 +907,6 @@
       },
       "marquee": {
         "artist": "LEMA",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-11": {
-      "hakkasan": {
-        "artist": "DJ Franzen",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "Rafa Barrios",
         "source": "tao-api"
       }
     },
