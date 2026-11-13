@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T21:18:24.350Z",
+  "updated": "2026-11-13T20:45:56.600Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -26,7 +26,7 @@
     },
     "2026-12-26": {
       "omnia": {
-        "artist": "LVP Party 2026 feat SIJAL  MASHBIT",
+        "artist": "LVP Party 2026 feat MASHBIT  SIJAL",
         "source": "tao-api"
       },
       "hakkasan": {
@@ -647,20 +647,6 @@
       },
       "marqdayclub": {
         "artist": "DJ Konflikt",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-12": {
-      "omnia": {
-        "artist": "OMNIA Nightclub Thursday",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "Deorro",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       }
     },
