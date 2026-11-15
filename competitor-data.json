@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T18:56:45.521Z",
+  "updated": "2026-11-15T19:32:51.333Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -198,7 +198,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
+        "artist": "Roddy Lima",
         "source": "tao-api"
       }
     },
@@ -703,24 +703,6 @@
       },
       "marqdayclub": {
         "artist": "DISCIP",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-14": {
-      "omnia": {
-        "artist": "Alesso",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "OHGEESY",
-        "source": "tao-api"
-      },
-      "marquee": {
-        "artist": "CID",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "Levi",
         "source": "tao-api"
       }
     },
