@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:01:44.689Z",
+  "updated": "2026-11-18T21:42:23.247Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -48,7 +48,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "DJ CLA",
         "source": "tao-api"
       }
     },
@@ -62,7 +62,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "DJ Hills",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -114,7 +114,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "DJ Phenom",
         "source": "tao-api"
       }
     },
@@ -180,7 +180,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "VTECH",
         "source": "tao-api"
       }
     },
@@ -246,7 +246,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Greg Lopez",
         "source": "tao-api"
       }
     },
@@ -312,7 +312,7 @@
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Sunday",
+        "artist": "Yo Yolie",
         "source": "tao-api"
       }
     },
@@ -326,11 +326,11 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Saturday",
+        "artist": "Greg Lopez",
         "source": "tao-api"
       },
       "marqdayclub": {
-        "artist": "Marquee Dome Saturday",
+        "artist": "Bijou",
         "source": "tao-api"
       }
     },
@@ -344,7 +344,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Marquee Nightclub Friday",
+        "artist": "LEMA",
         "source": "tao-api"
       },
       "marqdayclub": {
@@ -634,12 +634,6 @@
         "source": "tao-api"
       }
     },
-    "2026-11-17": {
-      "omnia": {
-        "artist": "Mikey Francis",
-        "source": "tao-api"
-      }
-    },
     "2026-12-11": {
       "omnia": {
         "artist": "TWINSICK",
@@ -766,7 +760,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "LUMI",
         "source": "tao-api"
       }
     },
@@ -776,7 +770,7 @@
         "source": "tao-api"
       },
       "marquee": {
-        "artist": "Lowkey in the Library",
+        "artist": "The Assadriz",
         "source": "tao-api"
       }
     },
@@ -852,7 +846,7 @@
     },
     "2027-02-01": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Justin Credible",
         "source": "tao-api"
       }
     },
@@ -864,19 +858,19 @@
     },
     "2027-01-18": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Vice",
         "source": "tao-api"
       }
     },
     "2027-01-11": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Crespo",
         "source": "tao-api"
       }
     },
     "2027-01-04": {
       "marquee": {
-        "artist": "Marquee Mondays",
+        "artist": "Eric D-Lux",
         "source": "tao-api"
       }
     },
