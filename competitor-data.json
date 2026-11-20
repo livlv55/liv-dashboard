@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T21:58:07.321Z",
+  "updated": "2026-11-20T21:40:55.111Z",
   "note": "TAO Group venues auto-scraped. Wynn (XS, EBC at Night, EBC) and Zouk require manual entry.",
   "events": {
     "2026-11-21": {
@@ -649,20 +649,6 @@
       },
       "marqdayclub": {
         "artist": "Trick Babies",
-        "source": "tao-api"
-      }
-    },
-    "2026-11-19": {
-      "omnia": {
-        "artist": "Alesso",
-        "source": "tao-api"
-      },
-      "hakkasan": {
-        "artist": "DJ Pauly D",
-        "source": "tao-api"
-      },
-      "marqdayclub": {
-        "artist": "CLOSED FOR PRIVATE EVENT",
         "source": "tao-api"
       }
     },
